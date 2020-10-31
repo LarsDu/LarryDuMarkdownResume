@@ -1,0 +1,1 @@
+These social logos were obtained from https://github.com/Automattic/social-logos

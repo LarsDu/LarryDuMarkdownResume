@@ -3,9 +3,9 @@ Lawrence Du
 
 > **Machine Learning** • **Data Science** • **Molecular Biology**
 
-> *[larrydu88@gmail.com](mailto:larrydu88@gmail.com)* • *626-808-7096* • *[github.com/LarsDu](http://github.com/LarsDu)* • *[linkedin.com/in/LarsDu](http://linkedin.com/in/LarsDu)*
+> ![mail](icons/png/mail.png)[larrydu88@gmail.com](mailto:larrydu88@gmail.com) | ![phone](icons/png/whatsapp.png)626-808-7096 | ![github](icons/png/github.png)[github.com/LarsDu](http://github.com/LarsDu) | ![linkedin](icons/png/linkedin.png)[linkedin.com/in/LarsDu](http://linkedin.com/in/LarsDu)
 
->  *825 E. Evelyn Ave. Apt 414, Sunnyvale CA 94086*
+> ##### *825 E. Evelyn Ave. Apt 414, Sunnyvale CA 94086*
 
 
 Skills

@@ -12,7 +12,7 @@ body {
     width: 800px;
     margin: auto;
     background: #FFFFFF;
-    padding: 10px 10px 10px 10px;
+    padding: 9px 9px 9px 9px;
     font-size: 12px;
 }
 
@@ -21,10 +21,11 @@ h1 {
     font-size: 40px;
     color: #446fff;
     text-align:center;
+    margin-top: 4px;
     margin-bottom:8px;
 }
 h1:hover {
-    color: #FFFFFF;
+    color: #094fff;
     text-shadow: 1px 1px 1px #333;
 }
 
@@ -57,21 +58,22 @@ h4 {
 }
 
 h5{
-    color: #c0c0c0;
-    margin-top: 1px;
-    margin-botton: 1px;
+    color: #989898;
+    margin-top: 2px;
+    margin-botton: 3px;
+    padding: 0px;
 }
 
 /* Definitions */
 dl{
-    margin-top: 2px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 dt {
     float: left;
     clear: left;
     width: 17%;
-    margin-bottom: 7px;
+    margin-bottom: 25px; /*Space out these sections*/
     /*font-weight: bold;*/
 }
 dd {
@@ -79,13 +81,25 @@ dd {
 }
 p {
     margin-top:0;
-    margin-bottom:7px;
+    margin-bottom:3px;
 }
 
 /* Blockquotes */
 blockquote {
-    margin-top: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 3px;
     text-align: center;
+}
+
+ul{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+}
+
+li{
+    margin-top: 2px;
 }
 
 /* Links */
@@ -103,3 +117,4 @@ a:hover, a:active {
 /* Horizontal separators */
 hr {
     color: #A6A6A6;
+}
