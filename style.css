@@ -1,7 +1,5 @@
 
 /*
- * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
- *
  * CSS for making a resume with pandoc. Inspired by moderncv.
  *
  * This CSS document is delivered to you under the CC BY-SA 3.0 License.
@@ -15,18 +13,17 @@ body {
     margin: auto;
     background: #FFFFFF;
     padding: 10px 10px 10px 10px;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 /* Title of the resume */
 h1 {
-    font-size: 55px;
+    font-size: 40px;
     color: #446fff;
     text-align:center;
-    margin-bottom:12px;
+    margin-bottom:8px;
 }
 h1:hover {
-    background-color: #757575;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #333;
 }
@@ -36,6 +33,11 @@ h2 {
     color: #000000;
     margin-bottom:3px;
 }
+h2:hover {
+    color: #094fff;
+    text-shadow: 1px 1px 1px #333;
+}
+
 /* There is a bar just before each category */
 h2:before {
     content: "";
@@ -59,17 +61,17 @@ h5{
     margin-top: 1px;
     margin-botton: 1px;
 }
-/*h2:hover {
-    background-color: #001aff;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
-}*/
 
 /* Definitions */
+dl{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
 dt {
     float: left;
     clear: left;
     width: 17%;
+    margin-bottom: 7px;
     /*font-weight: bold;*/
 }
 dd {
@@ -82,7 +84,8 @@ p {
 
 /* Blockquotes */
 blockquote {
-    text-align: center
+    margin-top: 3px;
+    text-align: center;
 }
 
 /* Links */

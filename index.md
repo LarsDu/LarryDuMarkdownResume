@@ -48,7 +48,7 @@ Experience
 ##### Sept 2017 - Feb 2018 (San Diego, CA)
 
  * Developed Tensorflow deep neural networks for inferring genetic abnormalities from sequencing of cell-free DNA.
- * Constructed a simulator derived from statistical analysis of human high throughput sequencing data for producing 
+ * Constructed a simulator derived from statistical analysis of human high throughput sequencing data for producing. 
  * Authored patent description concerning deep learning applications for diagnosis of genetic conditions.
 
 ### *Data Science Fellow • [Insight](https://insightfellows.com/data-science)*
@@ -61,8 +61,8 @@ Experience
 ##### Aug 2010 - May 2017 (La Jolla, CA)
 
  * Performed research on RNA expression noise during animal development by imaging single molecule RNA expression data >5,000 embryos and analyzing data using self-written MATLAB tools for image segmentation, fluorescence quantification, and image deconvolution.
- * Wrote [DeepNuc](https://github.com/LarsDu/DeepNuc} - a CNN model for classifying over 500,000 transcriptional start site (TSS) flanking sequences from humans, mice, fruit flies, and nematodes and over 60,000 microRNA target sequences (from publically available CLEAR-CLIP data).}
- * Transgenically modified over 70 nematode and Drosophila strains using techniques such as GIBSON assembly, CRISPR/Cas9, MosSCI, and \textit{PhiC31} integrase.}    
+ * Wrote [DeepNuc](https://github.com/LarsDu/DeepNuc) - a CNN model for classifying over 500,000 transcriptional start site (TSS) flanking sequences from humans, mice, fruit flies, and nematodes and over 60,000 microRNA target sequences (from publically available CLEAR-CLIP data).
+ * Transgenically modified over 70 nematode and Drosophila strains using techniques such as GIBSON assembly, CRISPR/Cas9, MosSCI, and *PhiC31* integrase.    
 
 
 Education
@@ -82,6 +82,7 @@ Activities and interests
  
 **Hobbies**
 :   I enjoy running, painting, and during the pandemic, [I worked on making a VR space shooter simulator.](https://www.youtube.com/watch?v=doYKLAeZUbM&t=37s)
+
 
 
 **Extracurricular Activities**
