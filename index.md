@@ -7,11 +7,10 @@ Lawrence Du
 
 > ##### *825 E. Evelyn Ave. Apt 414, Sunnyvale CA 94086*
 
-
 Skills
 --------------------
 #### Techniques
-Neural networks (CNNs, GANs, GraphNN), decision trees, k-fold cross-validation, SVMs, PCA, Louvain/Leiden, *k*-means clustering
+Neural networks (CNNs, GANs, GraphNN), decision trees, *k*-fold cross-validation, SVMs, PCA, Louvain/Leiden, *k*-means clustering
 
 #### Tools
 Tensorflow, Linux, NumPy, SciPy, h5py, Matplotlib, Flask, Amazon EC2, Conda, LaTeX, Jenkins, Jupyter
@@ -67,7 +66,6 @@ Experience
 
 Education
 ---------
-
 **Ph.D Biology**
 UC San Diego, 2010 - 2017  
 
@@ -86,7 +84,7 @@ Activities and interests
 
 
 **Extracurricular Activities**
-:   23andMe Spitballers Ultimate Frisbee • Machine Learning Society of San Diego • UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant Hughes Scholar (2009) •  [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Triple Helix (writer) • Friends of Farmworkers (tutor)
+:   23andMe Spitballers Ultimate Frisbee • Machine Learning Society of San Diego • UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Triple Helix (writer) • Friends of Farmworkers (tutor)
 
 ----
 
