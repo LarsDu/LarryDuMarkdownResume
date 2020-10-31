@@ -15,6 +15,7 @@ body {
     margin: auto;
     background: #FFFFFF;
     padding: 10px 10px 10px 10px;
+    font-size: 11px;
 }
 
 /* Title of the resume */
@@ -33,6 +34,7 @@ h1:hover {
 /* Titles of categories */
 h2 {
     color: #000000;
+    margin-bottom:3px;
 }
 /* There is a bar just before each category */
 h2:before {
@@ -40,8 +42,22 @@ h2:before {
     display: inline-block;
     margin-right:1%;
     width: 10%;
-    height: 8px;
+    height: 10px;
     background-color: #0936ff;
+}
+h3 {
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+h5{
+    color: #c0c0c0;
+    margin-top: 1px;
+    margin-botton: 1px;
 }
 /*h2:hover {
     background-color: #001aff;

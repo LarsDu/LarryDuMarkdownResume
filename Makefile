@@ -4,7 +4,7 @@ index.html: index.md style.css
 	pandoc --standalone -c style.css --from markdown --to html5 -o index.html index.md
 
 index.pdf: index.html
-	wkhtmltopdf index.html index.pdf
+	wkhtmltopdf --enable-local-file-access index.html index.pdf
 
 index.docx: index.md
 	pandoc --from markdown --to docx -o index.docx index.md
