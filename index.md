@@ -78,7 +78,7 @@ Activities and interests
 
 
 **Extracurricular Activities**
-:   23andMe Spitballers Ultimate Frisbee • Machine Learning Society of San Diego • UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Triple Helix (writer) • Friends of Farmworkers (tutor)
+:   23andMe Spitballers Ultimate Frisbee • Machine Learning Society of San Diego • UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant • Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Triple Helix (writer) • Friends of Farmworkers (tutor)
 
 ----
 
