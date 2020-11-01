@@ -1,5 +1,5 @@
 # LarryDuMarkdownResume
-*My using markdown (because I'm tired of using LaTeX)*
+*A resume made in markdown and easily converted to pdf, docx, and text (because I'm tired of using LaTeX)*
 
 ## [View resume as github markdown](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/index.md)
 ## [View resume as pdf](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/index.pdf)
