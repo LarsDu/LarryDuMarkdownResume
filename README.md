@@ -1,16 +1,19 @@
 # LarryDuMarkdownResume
-*Resume made using markdown, because I'm tired of using LaTeX.*
+*My using markdown (because I'm tired of using LaTeX)*
 
+## [View resume as github markdown](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/index.md)
 ## [View resume as pdf](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/index.pdf)
 
-Derived from https://github.com/chmduquesne/resume
+Inspired from https://github.com/chmduquesne/resume
 
-Requires:
+Here I [wrote my resume in markdown](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/index.md) and then use pandoc to cross compile the resume into .docx, .pdf, and .txt formats. This allows me to use version control on my resume easily, is simpler to maintain than a LaTeX based resume, and style/formatting can be handled by using css (the style.css file in the repo).
+
+#### Requires:
 
  * pandoc
  * wkhtmltopdf
  
 ## Instructions:
-Simply run `make all`
+To rebuild simply first run `make clean` to wipe non markdown files, then run `make all`
 
-`make clean` to start over.
+

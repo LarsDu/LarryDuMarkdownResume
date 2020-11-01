@@ -20,8 +20,8 @@ cross-validation, SVMs, PCA, Louvain/Leiden, _k_-means clustering
 
 Tools
 
-Tensorflow, Linux, NumPy, SciPy, h5py, Matplotlib, Flask, Amazon EC2,
-Conda, LaTeX, Jenkins, Jupyter
+Tensorflow, Linux, Pandas, NumPy, Sklearn, Matplotlib, Flask, Amazon
+EC2, Conda, LaTeX, Jenkins
 
 Programming
 
@@ -38,19 +38,20 @@ _Software Engineer II - Machine Learning Engineering • 23andMe_
 
 Apr 2020 - Present (Sunnyvale, CA)
 
--   Developed systems for automated ML model validation and report
-    generation for ancestry based products.
--   Major contributor to new AWS Athena backed service used by
-    researchers and therapeutics for pulling single nucleotide
-    polymorphisms used by machine learning models and GWAS pipelines.
+-   Major contributor to a new AWS Athena backed service used by
+    researchers for pulling imputed single nucleotide polymorphism
+    metadata used by machine learning models and GWAS pipelines.
+-   Created automated model validation pipelines for supporting new
+    deployments of country-matching algorithm _see below_ (using Jenkins
+    and MLflow).
 
 _Data Scientist - Ancestry Product • 23andMe_
 
 Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
--   Developed (and now maintain) current version of Recent Ancestor
-    Locations machine learning based country matching algorithm which
-    reaches >10 million of customers worldwide.
+-   Developed (and now maintain) current version of machine-learning
+    based country matching algorithm which reaches >10 million customers
+    worldwide.
 -   Adapted new Recent Ancestor Locations to run as a microservice on
     AWS backed hardware using MLflow for model artifact tracking.
 -   Improved graph-based techniques for unsupervised identification of
@@ -60,18 +61,18 @@ _Bioinformatician IV • Scripps Research_
 
 May 2018 - Oct 2018 (San Diego, CA)
 
--   Developed robust automated sequencing pipelines for Oxford Nanopore
-    data using Common Workflow Language (CWL) for realtime microbial
+-   Wrote robust automated sequencing pipelines for Oxford Nanopore data
+    using Common Workflow Language (CWL) for realtime microbial
     diagnostics, _de novo_ genome assembly, and variant calling.
 
 _Independent Consultant • Juno Diagnostics/Mindwerks (startup)_
 
 Sept 2017 - Feb 2018 (San Diego, CA)
 
--   Developed Tensorflow deep neural networks for inferring genetic
-    abnormalities from sequencing of cell-free DNA.
--   Constructed a simulator derived from statistical analysis of human
-    high throughput sequencing data for producing.
+-   Developed novel IP utilizing Tensorflow deep neural networks for
+    identifying genetic abnormalities from sequencing of cell-free DNA.
+-   Created a genetic abnormality simulator derived from statistical
+    analysis of human high throughput sequencing data.
 -   Authored patent description concerning deep learning applications
     for diagnosis of genetic conditions.
 

@@ -55,7 +55,6 @@ Experience
 
  * Wrote [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster) and created an interactive Python Flask web application hosted on Amazon AWS integrated with a Tensorflow back-end for GAN based art generation.
 
-
 ### *PhD Student Biology • UC San Diego • [Scott A. Rifkin Lab](http://labs.biology.ucsd.edu/rifkin/)*
 ##### Aug 2010 - May 2017 (La Jolla, CA)
 
@@ -63,24 +62,19 @@ Experience
  * Wrote [DeepNuc](https://github.com/LarsDu/DeepNuc) - a CNN model for classifying over 500,000 transcriptional start site (TSS) flanking sequences from humans, mice, fruit flies, and nematodes and over 60,000 microRNA target sequences (from publically available CLEAR-CLIP data).
  * Transgenically modified over 70 nematode and Drosophila strains using techniques such as GIBSON assembly, CRISPR/Cas9, MosSCI, and *PhiC31* integrase.    
 
-
 Education
 ---------
 **Ph.D Biology**
 UC San Diego, 2010 - 2017  
 
-
 **B.A. Biological Sciences** *Genetics and Development, Magna Cum Laude*
 Cornell University, 2006 - 2010  
-
-
 
 Activities and interests
 ------------------------
  
 **Hobbies**
 :   I enjoy running, painting, and during the pandemic, [I worked on making a VR space shooter simulator.](https://www.youtube.com/watch?v=doYKLAeZUbM&t=37s)
-
 
 
 **Extracurricular Activities**
