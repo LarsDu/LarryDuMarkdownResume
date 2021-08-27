@@ -13,7 +13,7 @@ Skills
 Neural networks (CNNs, GANs, GraphNN), decision trees, *k*-fold cross-validation, SVMs, PCA, Louvain/Leiden, *k*-means clustering
 
 #### Tools
-Tensorflow, Linux, Pandas, NumPy, Sklearn, Matplotlib, Flask, Amazon EC2, Conda, LaTeX, Jenkins
+Tensorflow, Linux, Pandas, NumPy, Numba, Sklearn, Matplotlib, Flask, AWS (EC2, S3, CloudFormation, Batch, Step Functions), Conda, LaTeX, Jenkins, Metaflow, Unity Game Engine
 
 #### Programming
 Python, C\#, SQL, Java, Dart, Bash, MATLAB/Octave, HTML/CSS, C/C++, Perl
@@ -28,8 +28,9 @@ Experience
 ### *Software Engineer II - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Apr 2020 - Present (Sunnyvale, CA)
 
- * Major contributor to a new AWS Athena backed service used by researchers for pulling imputed single nucleotide polymorphism metadata used by machine learning models and GWAS pipelines.
- * Created automated model validation pipelines for supporting new deployments of country-matching algorithm *see below* (using Jenkins and MLflow).
+ * Wrote and optimized a large scale compute backend + pipeline for processing 200 million+ genotyping marker statistics to support improved machine learning models and Genome Wide Association Studies.
+ * Built out cloud infrastructure for aforementioned pipeline using Cloudformation, AWS Batch, AWS Stepfunctions, and Metaflow.
+
 
 ### *Data Scientist - Ancestry Product • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Nov 2018 - Apr 2020 (Sunnyvale, CA)
@@ -43,7 +44,7 @@ Experience
 
  * Wrote robust automated sequencing pipelines for Oxford Nanopore data using Common Workflow Language (CWL) for realtime microbial diagnostics, *de novo* genome assembly, and variant calling.
 
-### *Independent Consultant • [Juno Diagnostics/Mindwerks (startup)](https://www.linkedin.com/company/juno-diagnostics/)*
+### *Independent Consultant • [Juno Diagnostics (startup - $25 million Series A closed in May 2021)](https://www.linkedin.com/company/juno-diagnostics/)*
 ##### Sept 2017 - Feb 2018 (San Diego, CA)
 
  * Developed novel IP utilizing Tensorflow deep neural networks for identifying genetic abnormalities from sequencing of cell-free DNA.
@@ -60,25 +61,24 @@ Experience
 
  * Performed research on RNA expression noise during animal development by imaging single molecule RNA expression data >5,000 embryos and analyzing data using self-written MATLAB tools for image segmentation, fluorescence quantification, and image deconvolution.
  * Wrote [DeepNuc](https://github.com/LarsDu/DeepNuc) - a CNN model for classifying over 500,000 transcriptional start site (TSS) flanking sequences from humans, mice, fruit flies, and nematodes and over 60,000 microRNA target sequences (from publically available CLEAR-CLIP data).
- * Transgenically modified over 70 nematode and Drosophila strains using techniques such as GIBSON assembly, CRISPR/Cas9, MosSCI, and *PhiC31* integrase.    
+ * Transgenically modified over 70 nematode and Drosophila strains using techniques such as GIBSON assembly, CRISPR/Cas9, MosSCI, and *PhiC31* integrase.
 
 Education
 ---------
 **Ph.D Biology**
-UC San Diego, 2010 - 2017  
+UC San Diego, 2010 - 2017
 
 **B.A. Biological Sciences** *Genetics and Development, Magna Cum Laude*
-Cornell University, 2006 - 2010  
+Cornell University, 2006 - 2010
 
 Activities and interests
 ------------------------
- 
+
 **Hobbies**
-:   I enjoy running, painting, and during the pandemic, [I worked on making a VR space shooter simulator.](https://www.youtube.com/watch?v=doYKLAeZUbM&t=37s)
+:   I enjoy running, painting. During the pandemic, [I developed a VR space sim game](https://www.dogames.org/roguestargun)
 
 
 **Extracurricular Activities**
-:   23andMe Spitballers Ultimate Frisbee • Machine Learning Society of San Diego • UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant • Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Triple Helix (writer) • Friends of Farmworkers (tutor)
+:   23andMe Spitballers Ultimate Frisbee • Machine Learning Society of San Diego • UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant • Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Friends of Farmworkers (tutor)
 
 ----
-

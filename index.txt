@@ -1,27 +1,24 @@
+Lawrence Du
 
-
-LAWRENCE DU
-
-
-  MACHINE LEARNING • DATA SCIENCE • MOLECULAR BIOLOGY
+  Machine Learning • Data Science • Molecular Biology
 
   [mail]larrydu88@gmail.com | [phone]626-808-7096 |
   [github]github.com/LarsDu | [linkedin]linkedin.com/in/LarsDu
 
-  _825 E. Evelyn Ave. Apt 414, Sunnyvale CA 94086_
-
+  825 E. Evelyn Ave. Apt 414, Sunnyvale CA 94086
 
 Skills
 
 Techniques
 
-Neural networks (CNNs, GANs, GraphNN), decision trees, _k_-fold
-cross-validation, SVMs, PCA, Louvain/Leiden, _k_-means clustering
+Neural networks (CNNs, GANs, GraphNN), decision trees, k-fold
+cross-validation, SVMs, PCA, Louvain/Leiden, k-means clustering
 
 Tools
 
-Tensorflow, Linux, Pandas, NumPy, Sklearn, Matplotlib, Flask, Amazon
-EC2, Conda, LaTeX, Jenkins
+Tensorflow, Linux, Pandas, NumPy, Numba, Sklearn, Matplotlib, Flask, AWS
+(EC2, S3, CloudFormation, Batch, Step Functions), Conda, LaTeX, Jenkins,
+Metaflow, Unity Game Engine
 
 Programming
 
@@ -31,21 +28,20 @@ Languages
 
 Mandarin Chinese and some Spanish
 
-
 Experience
 
-_Software Engineer II - Machine Learning Engineering • 23andMe_
+Software Engineer II - Machine Learning Engineering • 23andMe
 
 Apr 2020 - Present (Sunnyvale, CA)
 
--   Major contributor to a new AWS Athena backed service used by
-    researchers for pulling imputed single nucleotide polymorphism
-    metadata used by machine learning models and GWAS pipelines.
--   Created automated model validation pipelines for supporting new
-    deployments of country-matching algorithm _see below_ (using Jenkins
-    and MLflow).
+-   Wrote and optimized a large scale compute backend + pipeline for
+    processing 200 million+ genotyping marker statistics to support
+    improved machine learning models and Genome Wide Association
+    Studies.
+-   Built out cloud infrastructure for aforementioned pipeline using
+    Cloudformation, AWS Batch, AWS Stepfunctions, and Metaflow.
 
-_Data Scientist - Ancestry Product • 23andMe_
+Data Scientist - Ancestry Product • 23andMe
 
 Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
@@ -57,15 +53,15 @@ Nov 2018 - Apr 2020 (Sunnyvale, CA)
 -   Improved graph-based techniques for unsupervised identification of
     populations by genetic relationships.
 
-_Bioinformatician IV • Scripps Research_
+Bioinformatician IV • Scripps Research
 
 May 2018 - Oct 2018 (San Diego, CA)
 
 -   Wrote robust automated sequencing pipelines for Oxford Nanopore data
     using Common Workflow Language (CWL) for realtime microbial
-    diagnostics, _de novo_ genome assembly, and variant calling.
+    diagnostics, de novo genome assembly, and variant calling.
 
-_Independent Consultant • Juno Diagnostics/Mindwerks (startup)_
+Independent Consultant • Juno Diagnostics (startup - $25 million Series A closed in May 2021)
 
 Sept 2017 - Feb 2018 (San Diego, CA)
 
@@ -76,7 +72,7 @@ Sept 2017 - Feb 2018 (San Diego, CA)
 -   Authored patent description concerning deep learning applications
     for diagnosis of genetic conditions.
 
-_Data Science Fellow • Insight_
+Data Science Fellow • Insight
 
 Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
 
@@ -84,7 +80,7 @@ Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
     application hosted on Amazon AWS integrated with a Tensorflow
     back-end for GAN based art generation.
 
-_PhD Student Biology • UC San Diego • Scott A. Rifkin Lab_
+PhD Student Biology • UC San Diego • Scott A. Rifkin Lab
 
 Aug 2010 - May 2017 (La Jolla, CA)
 
@@ -98,28 +94,26 @@ Aug 2010 - May 2017 (La Jolla, CA)
     sequences (from publically available CLEAR-CLIP data).
 -   Transgenically modified over 70 nematode and Drosophila strains
     using techniques such as GIBSON assembly, CRISPR/Cas9, MosSCI, and
-    _PhiC31_ integrase.
-
+    PhiC31 integrase.
 
 Education
 
-PH.D BIOLOGY UC San Diego, 2010 - 2017
+Ph.D Biology UC San Diego, 2010 - 2017
 
-B.A. BIOLOGICAL SCIENCES _Genetics and Development, Magna Cum Laude_
+B.A. Biological Sciences Genetics and Development, Magna Cum Laude
 Cornell University, 2006 - 2010
-
 
 Activities and interests
 
-HOBBIES
-    I enjoy running, painting, and during the pandemic, I worked on
-    making a VR space shooter simulator.
+Hobbies
+    I enjoy running, painting. During the pandemic, I developed a VR
+    space sim game
 
-EXTRACURRICULAR ACTIVITIES
+Extracurricular Activities
     23andMe Spitballers Ultimate Frisbee • Machine Learning Society of
     San Diego • UCSD GSA Lobby Corps • BioEASI Art and Science Board •
     Genetics Training Program Grant • Hughes Scholar (2009) • Cornell
-    Undergraduate Research Board (Vice President) • Triple Helix
-    (writer) • Friends of Farmworkers (tutor)
+    Undergraduate Research Board (Vice President) • Friends of
+    Farmworkers (tutor)
 
 ------------------------------------------------------------------------
