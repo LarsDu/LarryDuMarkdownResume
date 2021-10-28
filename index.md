@@ -5,18 +5,18 @@ Lawrence Du
 
 > ![mail](icons/png/mail.png)[larrydu88@gmail.com](mailto:larrydu88@gmail.com) | ![phone](icons/png/whatsapp.png)626-808-7096 | ![github](icons/png/github.png)[github.com/LarsDu](http://github.com/LarsDu) | ![linkedin](icons/png/linkedin.png)[linkedin.com/in/LarsDu](http://linkedin.com/in/LarsDu)
 
-> ##### *825 E. Evelyn Ave. Apt 414, Sunnyvale CA 94086*
+> ##### 2911 McKinley Dr. Santa Clara, CA 95051
 
 Skills
 --------------------
 #### Techniques
-Neural networks (CNNs, GANs, GraphNN), decision trees, *k*-fold cross-validation, SVMs, PCA, Louvain/Leiden, *k*-means clustering
+Neural networks (CNNs, GANs, GraphNN, Attention), Louvain/Leiden, *k*-fold cross-validation, SVMs, PCA, *k*-means clustering, decision trees
 
 #### Tools
-Tensorflow, Linux, Pandas, NumPy, Numba, Sklearn, Matplotlib, Flask, AWS (EC2, S3, CloudFormation, Batch, Step Functions), Conda, LaTeX, Jenkins, Metaflow, Unity Game Engine
+Tensorflow, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS (EC2, S3, CloudFormation, Batch, Step Functions), Jenkins, Docker, Metaflow
 
 #### Programming
-Python, C\#, SQL, Java, Dart, Bash, MATLAB/Octave, HTML/CSS, C/C++, Perl
+Python,  SQL, C\#, Java, Dart, Bash, MATLAB/Octave, HTML/CSS, C/C++, Perl
 
 #### Languages
 Mandarin Chinese and some Spanish
@@ -28,15 +28,14 @@ Experience
 ### *Software Engineer II - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Apr 2020 - Present (Sunnyvale, CA)
 
- * Wrote and optimized a large scale compute backend + pipeline for processing 200 million+ genotyping marker statistics to support improved machine learning models and Genome Wide Association Studies.
- * Built out cloud infrastructure for aforementioned pipeline using Cloudformation, AWS Batch, AWS Stepfunctions, and Metaflow.
-
+ * Worked on improvements in polygenic risk score modeling through model ensembling.
+ * Engineered a large-scale pipeline for calculating quality metrics of imputed single-nucleotide polymorphisms (~10 trillion datapoints) across an distributed cloud cluster (using AWS Batch, Metaflow, AWS Glue, and AWS Athena)
 
 ### *Data Scientist - Ancestry Product • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
- * Developed (and now maintain) current version of machine-learning based country matching algorithm  which reaches >10 million customers worldwide.
- * Adapted new Recent Ancestor Locations to run as a microservice on AWS backed hardware using MLflow for model artifact tracking.
+ * Developed current version of Recent Ancestor Locations (RAL) - a machine-learning based country matching algorithm which serves >10 million customers worldwide.
+ * Built Recent Ancestor Locations to run as a microservice on AWS backed hardware using MLflow for model artifact tracking.
  * Improved graph-based techniques for unsupervised identification of populations by genetic relationships.
 
 ### *Bioinformatician IV • [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html)*
@@ -47,9 +46,8 @@ Experience
 ### *Independent Consultant • [Juno Diagnostics (startup - $25 million Series A closed in May 2021)](https://www.linkedin.com/company/juno-diagnostics/)*
 ##### Sept 2017 - Feb 2018 (San Diego, CA)
 
- * Developed novel IP utilizing Tensorflow deep neural networks for identifying genetic abnormalities from sequencing of cell-free DNA.
+ * Developed patent -- [EP3773534A1 - Deep learning-based methods, devices, and systems for prenatal testing](https://patents.google.com/patent/EP3773534A1/en) along with a Tensorflow based deep learning software package for detecting prenatal genetic abnormalities.
  * Created a genetic abnormality simulator derived from statistical analysis of human high throughput sequencing data.
- * Authored patent description concerning deep learning applications for diagnosis of genetic conditions.
 
 ### *Data Science Fellow • [Insight](https://insightfellows.com/data-science)*
 ##### Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
@@ -73,12 +71,9 @@ Cornell University, 2006 - 2010
 
 Activities and interests
 ------------------------
-
 **Hobbies**
-:   I enjoy running, painting. During the pandemic, [I developed a VR space sim game](https://www.dogames.org/roguestargun)
+:   I enjoy running, painting. During the pandemic, [I developed a VR space sim game](https://www.youtube.com/watch?v=hs1XNLfzP4Y)
 
 
 **Extracurricular Activities**
 :   23andMe Spitballers Ultimate Frisbee • Machine Learning Society of San Diego • UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant • Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Friends of Farmworkers (tutor)
-
-----

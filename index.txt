@@ -5,24 +5,23 @@ Lawrence Du
   [mail]larrydu88@gmail.com | [phone]626-808-7096 |
   [github]github.com/LarsDu | [linkedin]linkedin.com/in/LarsDu
 
-  825 E. Evelyn Ave. Apt 414, Sunnyvale CA 94086
+  2911 McKinley Dr. Santa Clara, CA 95051
 
 Skills
 
 Techniques
 
-Neural networks (CNNs, GANs, GraphNN), decision trees, k-fold
-cross-validation, SVMs, PCA, Louvain/Leiden, k-means clustering
+Neural networks (CNNs, GANs, GraphNN, Attention), Louvain/Leiden, k-fold
+cross-validation, SVMs, PCA, k-means clustering, decision trees
 
 Tools
 
-Tensorflow, Linux, Pandas, NumPy, Numba, Sklearn, Matplotlib, Flask, AWS
-(EC2, S3, CloudFormation, Batch, Step Functions), Conda, LaTeX, Jenkins,
-Metaflow, Unity Game Engine
+Tensorflow, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS (EC2,
+S3, CloudFormation, Batch, Step Functions), Jenkins, Docker, Metaflow
 
 Programming
 
-Python, C#, SQL, Java, Dart, Bash, MATLAB/Octave, HTML/CSS, C/C++, Perl
+Python, SQL, C#, Java, Dart, Bash, MATLAB/Octave, HTML/CSS, C/C++, Perl
 
 Languages
 
@@ -34,22 +33,22 @@ Software Engineer II - Machine Learning Engineering • 23andMe
 
 Apr 2020 - Present (Sunnyvale, CA)
 
--   Wrote and optimized a large scale compute backend + pipeline for
-    processing 200 million+ genotyping marker statistics to support
-    improved machine learning models and Genome Wide Association
-    Studies.
--   Built out cloud infrastructure for aforementioned pipeline using
-    Cloudformation, AWS Batch, AWS Stepfunctions, and Metaflow.
+-   Worked on improvements in polygenic risk score modeling through
+    model ensembling.
+-   Engineered a large-scale pipeline for calculating quality metrics of
+    imputed single-nucleotide polymorphisms (~10 trillion datapoints)
+    across an distributed cloud cluster (using AWS Batch, Metaflow, AWS
+    Glue, and AWS Athena)
 
 Data Scientist - Ancestry Product • 23andMe
 
 Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
--   Developed (and now maintain) current version of machine-learning
-    based country matching algorithm which reaches >10 million customers
-    worldwide.
--   Adapted new Recent Ancestor Locations to run as a microservice on
-    AWS backed hardware using MLflow for model artifact tracking.
+-   Developed current version of Recent Ancestor Locations (RAL) - a
+    machine-learning based country matching algorithm which serves >10
+    million customers worldwide.
+-   Built Recent Ancestor Locations to run as a microservice on AWS
+    backed hardware using MLflow for model artifact tracking.
 -   Improved graph-based techniques for unsupervised identification of
     populations by genetic relationships.
 
@@ -65,12 +64,12 @@ Independent Consultant • Juno Diagnostics (startup - $25 million Series A clos
 
 Sept 2017 - Feb 2018 (San Diego, CA)
 
--   Developed novel IP utilizing Tensorflow deep neural networks for
-    identifying genetic abnormalities from sequencing of cell-free DNA.
+-   Developed patent -- EP3773534A1 - Deep learning-based methods,
+    devices, and systems for prenatal testing along with a Tensorflow
+    based deep learning software package for detecting prenatal genetic
+    abnormalities.
 -   Created a genetic abnormality simulator derived from statistical
     analysis of human high throughput sequencing data.
--   Authored patent description concerning deep learning applications
-    for diagnosis of genetic conditions.
 
 Data Science Fellow • Insight
 
@@ -115,5 +114,3 @@ Extracurricular Activities
     Genetics Training Program Grant • Hughes Scholar (2009) • Cornell
     Undergraduate Research Board (Vice President) • Friends of
     Farmworkers (tutor)
-
-------------------------------------------------------------------------
