@@ -17,7 +17,7 @@ cross-validation, SVMs, PCA, k-means clustering, decision trees
 Tools
 
 Tensorflow, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS (EC2,
-S3, CloudFormation, Batch, Step Functions), Jenkins, Docker, Metaflow
+S3, Athena, CloudFormation), Jenkins, Docker, Metaflow
 
 Programming
 
@@ -29,16 +29,16 @@ Mandarin Chinese and some Spanish
 
 Experience
 
-Software Engineer II - Machine Learning Engineering • 23andMe
+Software Engineer - Machine Learning Engineering • 23andMe
 
 Apr 2020 - Present (Sunnyvale, CA)
 
--   Worked on improvements in polygenic risk score modeling through
-    model ensembling.
+-   Improved polygenic risk score models through model ensembling.
 -   Engineered a large-scale pipeline for calculating quality metrics of
     imputed single-nucleotide polymorphisms (~10 trillion datapoints)
     across an distributed cloud cluster (using AWS Batch, Metaflow, AWS
-    Glue, and AWS Athena)
+    Glue, and AWS Athena) to create a fully productionized feature
+    engineering database for improving polygenic risk score models.
 
 Data Scientist - Ancestry Product • 23andMe
 

@@ -13,7 +13,7 @@ Skills
 Neural networks (CNNs, GANs, GraphNN, Attention), Louvain/Leiden, *k*-fold cross-validation, SVMs, PCA, *k*-means clustering, decision trees
 
 #### Tools
-Tensorflow, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS (EC2, S3, CloudFormation, Batch, Step Functions), Jenkins, Docker, Metaflow
+Tensorflow, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS (EC2, S3, Athena, CloudFormation), Jenkins, Docker, Metaflow
 
 #### Programming
 Python,  SQL, C\#, Java, Dart, Bash, MATLAB/Octave, HTML/CSS, C/C++, Perl
@@ -25,11 +25,11 @@ Mandarin Chinese and some Spanish
 Experience
 --------------------
 
-### *Software Engineer II - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
+### *Software Engineer - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Apr 2020 - Present (Sunnyvale, CA)
 
- * Worked on improvements in polygenic risk score modeling through model ensembling.
- * Engineered a large-scale pipeline for calculating quality metrics of imputed single-nucleotide polymorphisms (~10 trillion datapoints) across an distributed cloud cluster (using AWS Batch, Metaflow, AWS Glue, and AWS Athena)
+ * Improved polygenic risk score models through model ensembling.
+ * Engineered a large-scale pipeline for calculating quality metrics of imputed single-nucleotide polymorphisms (~10 trillion datapoints) across an distributed cloud cluster (using AWS Batch, Metaflow, AWS Glue, and AWS Athena) to create a fully productionized feature engineering database for improving polygenic risk score models.
 
 ### *Data Scientist - Ancestry Product • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Nov 2018 - Apr 2020 (Sunnyvale, CA)
