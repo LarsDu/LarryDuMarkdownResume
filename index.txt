@@ -1,6 +1,6 @@
 Lawrence Du
 
-  Machine Learning • Data Science • Molecular Biology
+  Machine Learning • Biotechnology
 
   [mail]larrydu88@gmail.com | [phone]626-808-7096 |
   [github]github.com/LarsDu | [linkedin]linkedin.com/in/LarsDu
@@ -12,20 +12,17 @@ Skills
 Techniques
 
 Neural networks (CNNs, GANs, GraphNN, Attention), Louvain/Leiden, k-fold
-cross-validation, SVMs, PCA, k-means clustering, decision trees
+cross-validation, SVMs, PCA, decision trees
 
 Tools
 
-Tensorflow, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS (EC2,
-S3, Athena, CloudFormation), Jenkins, Docker, Metaflow
-
-Programming
-
-Python, SQL, C#, Java, Dart, Bash, MATLAB/Octave, HTML/CSS, C/C++, Perl
+Tensorflow, Pytorch, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask,
+AWS (EC2, S3, Athena, CloudFormation), Jenkins, Docker, Metaflow
 
 Languages
 
-Mandarin Chinese and some Spanish
+Python, SQL, C#, Java, Dart, Bash, C/C++, Matlab, Some Mandarin and
+Spanish
 
 Experience
 
@@ -33,29 +30,32 @@ Software Engineer - Machine Learning Engineering • 23andMe
 
 Apr 2020 - Present (Sunnyvale, CA)
 
--   Improved polygenic risk score models through model ensembling.
--   Engineered a large-scale pipeline for calculating quality metrics of
-    imputed single-nucleotide polymorphisms (~10 trillion datapoints)
-    across an distributed cloud cluster (using AWS Batch, Metaflow, AWS
-    Glue, and AWS Athena) to create a fully productionized feature
-    engineering database for improving polygenic risk score models.
+-   Built a large-scale ETL pipeline for calculating quality statistics
+    of genotyped and imputed single-nucleotide polymorphisms (~10
+    trillion datapoints) across an distributed cloud cluster (using AWS
+    Batch, Metaflow, AWS Glue) for populating an AWS Athena based
+    feature datastore used to improve polygenic risk score models.
+-   Developed performance improvements for polygenic risk score models
+    through model stacking.
 
 Data Scientist - Ancestry Product • 23andMe
 
 Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
 -   Developed current version of Recent Ancestor Locations (RAL) - a
-    machine-learning based country matching algorithm which serves >10
-    million customers worldwide.
--   Built Recent Ancestor Locations to run as a microservice on AWS
-    backed hardware using MLflow for model artifact tracking.
+    high precision, high recall country matching algorithm which
+    serves >10 million customers worldwide.
+-   Built RAL to run as a microservice on AWS backed hardware using
+    MLflow for model artifact tracking.
 -   Improved graph-based techniques for unsupervised identification of
-    populations by genetic relationships.
+    populations by identity-by-descent (IBD) relationships.
 
 Bioinformatician IV • Scripps Research
 
 May 2018 - Oct 2018 (San Diego, CA)
 
+-   Wrote a classifier for organ transplant rejection from RNA
+    sequencing data for a research grant.
 -   Wrote robust automated sequencing pipelines for Oxford Nanopore data
     using Common Workflow Language (CWL) for realtime microbial
     diagnostics, de novo genome assembly, and variant calling.
@@ -75,22 +75,22 @@ Data Science Fellow • Insight
 
 Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
 
--   Wrote DeepPixelMonster and created an interactive Python Flask web
-    application hosted on Amazon AWS integrated with a Tensorflow
-    back-end for GAN based art generation.
+-   Wrote DeepPixelMonster - a Deep Convolutional Generative Adverserial
+    Network (DCGAN) for creating pixel art as a week-long project. Also
+    deployed aforementioned service as a Flask app on AWS.
 
 PhD Student Biology • UC San Diego • Scott A. Rifkin Lab
 
 Aug 2010 - May 2017 (La Jolla, CA)
 
--   Performed research on RNA expression noise during animal development
-    by imaging single molecule RNA expression data >5,000 embryos and
-    analyzing data using self-written MATLAB tools for image
-    segmentation, fluorescence quantification, and image deconvolution.
 -   Wrote DeepNuc - a CNN model for classifying over 500,000
     transcriptional start site (TSS) flanking sequences from humans,
     mice, fruit flies, and nematodes and over 60,000 microRNA target
     sequences (from publically available CLEAR-CLIP data).
+-   Performed research on RNA expression noise during animal development
+    by imaging single molecule RNA expression data >5,000 embryos and
+    analyzing data using self-written MATLAB tools for image
+    segmentation, fluorescence quantification, and image deconvolution.
 -   Transgenically modified over 70 nematode and Drosophila strains
     using techniques such as GIBSON assembly, CRISPR/Cas9, MosSCI, and
     PhiC31 integrase.
@@ -105,8 +105,8 @@ Cornell University, 2006 - 2010
 Activities and interests
 
 Hobbies
-    I enjoy running, painting. During the pandemic, I developed a VR
-    space sim game
+    I enjoy running, painting, and 3D modeling. During the pandemic, I
+    developed a VR space game in my spare time
 
 Extracurricular Activities
     23andMe Spitballers Ultimate Frisbee • Machine Learning Society of
