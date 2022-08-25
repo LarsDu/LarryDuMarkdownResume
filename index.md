@@ -71,6 +71,6 @@ Cornell University, 2006 - 2010
 
 Activities and interests
 ------------------------
-**Hobbies**: Running, painting, [3D modeling](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9), developing a [VR game](https://roguestargun.net), and [my tech blog](https://du-blog.net)
+**Hobbies**: Running, painting, [3D modeling](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9), developing a [VR game](https://roguestargun.com), and [my tech blog](https://du-blog.net)
 
 **Extracurricular Activities**: UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant • Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Friends of Farmworkers
