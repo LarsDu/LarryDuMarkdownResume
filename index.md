@@ -1,7 +1,7 @@
 Lawrence Du
 =========================
 
-> **Machine Learning** • **Biotechnology**
+> **Machine Learning** • **Biotechnology** • **Cloud**
 
 > ![mail](icons/png/mail.png)[larrydu88@gmail.com](mailto:larrydu88@gmail.com) | ![phone](icons/png/whatsapp.png)626-808-7096 | ![github](icons/png/github.png)[github.com/LarsDu](http://github.com/LarsDu) | ![linkedin](icons/png/linkedin.png)[linkedin.com/in/LarsDu](http://linkedin.com/in/LarsDu)
 
