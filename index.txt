@@ -21,22 +21,23 @@ AWS, Google Cloud, Jenkins, Terraform, Docker, Metaflow, Kubernetes
 
 Languages
 
-Python, SQL, C#, Java, Dart, Bash, C/C++, Matlab, Some Mandarin and
-Spanish
+Python, Rust, SQL, C#, Java, Dart, Bash, C/C++, Matlab, HTML/CSS, Some
+Mandarin and Spanish
 
 Experience
 
 Senior Machine Learning Platform Engineer • Freenome
 
-Aug 2022 - Present (San Francisco, CA)
+Aug 2022 - Present (South San Francisco, CA)
 
--   Built a platform for distributed training of large-scale machine
-    learning models for cancer detection using PyTorch, Ray, and
-    Kubernetes.
+-   Built research platform for distributed training of large-scale
+    machine learning models for cancer detection using PyTorch, Ray, and
+    Kubernetes supporting thousands of ongoing research efforts.
 -   Developed and refined methylated cell-free DNA based models for
     Colorectal Cancer (CRC) detection.
 -   Deployed and managed an organization-wide MLFlow based model
-    tracking system.
+    tracking system for reproducibility, monitoring, and automated model
+    performance reporting.
 
 Software Engineer - Machine Learning Engineering • 23andMe
 
@@ -46,7 +47,8 @@ Apr 2020 - Aug 2022 (Sunnyvale, CA)
     SNPs (~10 million samples x ~1 million SNPs) using AWS Batch,
     Metaflow, AWS Glue, and AWS Athena used to feed downstream GWAS and
     Polygenic Risk Score (PRS) ML models.
--   Improved PRS model AUCs and auPRCs through model stacking.
+-   Improved PRS model AUCs and auPRCs through model stacking
+    approaches.
 
 Data Scientist - Ancestry Product • 23andMe
 
@@ -84,7 +86,7 @@ Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
 
 -   Built and deployed (as a Flask app on AWS EC2) DeepPixelMonster - a
     Tensorflow based GAN for creating pixel art, back when GANs were
-    still relatively state-of-the art(!).
+    still relatively state-of-the art.
 
 PhD Student Biology • UC San Diego • Scott A. Rifkin Lab
 
@@ -109,10 +111,7 @@ Cornell University, 2006 - 2010
 Activities and interests
 
 -   Developing the VR game Rogue Stargun (https://roguestargun.com)
--   3D modeling
--   DuBlog (https://dublog.net)
-
-Extracurricular Activities: UCSD GSA Lobby Corps • BioEASI Art and
-Science Board • Genetics Training Program Grant • Hughes Scholar (2009)
-• Cornell Undergraduate Research Board (Vice President) • Friends of
-Farmworkers
+-   3D modeling with Blender3D
+-   Painting
+-   DuBlog (https://dublog.net) - Self deployed using Google Cloud,
+    Hugo, and Github Actions

@@ -16,23 +16,23 @@ Neural networks (CNNs, GraphNN, Transformers), Louvain/Leiden, *k*-fold cross-va
 Tensorflow, Pytorch, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS, Google Cloud, Jenkins, Terraform, Docker, Metaflow, Kubernetes
 
 #### Languages
-Python, SQL, C\#, Java, Dart, Bash, C/C++, Matlab, Some Mandarin and Spanish
+Python, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://roguestargun.com), Java, Dart, Bash, C/C++, Matlab, [HTML/CSS](https://dublog.net), Some Mandarin and Spanish
 
 Experience
 --------------------
 
 #### *Senior Machine Learning Platform Engineer* • [Freenome](https://www.linkedin.com/company/freenome/mycompany/)
-##### Aug 2022 - Present (San Francisco, CA)
+##### Aug 2022 - Present (South San Francisco, CA)
 
- * Built a platform for distributed training of large-scale machine learning models for cancer detection using PyTorch, Ray, and Kubernetes.
+ * Built research platform for distributed training of large-scale machine learning models for cancer detection using PyTorch, Ray, and Kubernetes supporting thousands of ongoing research efforts.
  * Developed and refined methylated cell-free DNA based models for Colorectal Cancer (CRC) detection.
- * Deployed and managed an organization-wide MLFlow based model tracking system.
+ * Deployed and managed an organization-wide MLFlow based model tracking system for reproducibility, monitoring, and automated model performance reporting.
 
 #### *Software Engineer - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Apr 2020 - Aug 2022 (Sunnyvale, CA)
 
  * Built a large-scale feature engineering ETL pipeline for imputed SNPs (~10 million samples x ~1 million SNPs) using AWS Batch, Metaflow, AWS Glue, and AWS Athena used to feed downstream GWAS and Polygenic Risk Score (PRS) ML models.
- * Improved PRS model AUCs and auPRCs through model stacking.
+ * Improved PRS model AUCs and auPRCs through model stacking approaches.
 
 #### *Data Scientist - Ancestry Product • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Nov 2018 - Apr 2020 (Sunnyvale, CA)
@@ -55,7 +55,7 @@ Experience
 #### *Data Science Fellow • [Insight](https://insightfellows.com/data-science)*
 ##### Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
 
- * Built and deployed (as a Flask app on AWS EC2) [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster) - a Tensorflow based GAN for creating pixel art, back when GANs were still relatively state-of-the art(!).
+ * Built and deployed (as a Flask app on AWS EC2) [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster) - a Tensorflow based GAN for creating pixel art, back when GANs were still relatively state-of-the art.
 
 #### *PhD Student Biology • UC San Diego • [Scott A. Rifkin Lab](http://labs.biology.ucsd.edu/rifkin/)*
 ##### Aug 2010 - May 2017 (La Jolla, CA)
@@ -74,7 +74,6 @@ Cornell University, 2006 - 2010
 Activities and interests
 ------------------------
 * [Developing the VR game Rogue Stargun (https://roguestargun.com)](https://roguestargun.com)
-* [3D modeling](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9)
-* [DuBlog (https://dublog.net)](https://dublog.net)
-
-**Extracurricular Activities**: UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant • Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Friends of Farmworkers
+* [3D modeling with Blender3D](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9)
+* [Painting](https://dublog.net/images/stable-diffusion-img2img/larryd.png)
+* [DuBlog (https://dublog.net)](https://dublog.net) - Self deployed using Google Cloud, Hugo, and Github Actions
