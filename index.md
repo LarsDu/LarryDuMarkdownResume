@@ -10,7 +10,7 @@ Lawrence Du
 Skills
 --------------------
 #### Techniques
-Neural networks (CNNs, GANs, GraphNN, Transformers), Louvain/Leiden, *k*-fold cross-validation, SVMs, PCA, decision trees
+Neural networks (CNNs, GraphNN, Transformers), Louvain/Leiden, *k*-fold cross-validation, SVMs, PCA, decision trees
 
 #### Tools
 Tensorflow, Pytorch, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS, Google Cloud, Jenkins, Terraform, Docker, Metaflow, Kubernetes
@@ -24,7 +24,9 @@ Experience
 #### *Senior Machine Learning Platform Engineer* • [Freenome](https://www.linkedin.com/company/freenome/mycompany/)
 ##### Aug 2022 - Present (San Francisco, CA)
 
- * Developed cloud based research tooling for classifying cancer disease risk using Kubernetes, Terraform, Docker, and Google Cloud.
+ * Built a platform for distributed training of large-scale machine learning models for cancer detection using PyTorch, Ray, and Kubernetes.
+ * Developed and refined methylated cell-free DNA based models for Colorectal Cancer (CRC) detection.
+ * Deployed and managed an organization-wide MLFlow based model tracking system.
 
 #### *Software Engineer - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Apr 2020 - Aug 2022 (Sunnyvale, CA)
@@ -36,14 +38,14 @@ Experience
 ##### Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
  * Developed Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >10 million customers worldwide.
- * Deployed RAL using MLflow and AWS Fargate
- * Improved graph-based techniques for unsupervised identification of populations by identity-by-descent (IBD) relationships.
+ * Deployed RAL using MLFlow and AWS Fargate
+ * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationships.
 
 #### *Bioinformatician IV • [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html)*
 ##### May 2018 - Oct 2018 (San Diego, CA)
 
  * Developed a classifier for organ transplant rejection using RNA data.
- * Wrote pipelines for Nanopore long-read sequencers using CWL.
+ * Wrote pipelines for Nanopore long-read sequencers using Common Workflow Language.
 
 #### *Independent Consultant • [Juno Diagnostics](https://www.linkedin.com/company/juno-diagnostics/)*
 ##### Sept 2017 - Feb 2018 (San Diego, CA)
@@ -53,7 +55,7 @@ Experience
 #### *Data Science Fellow • [Insight](https://insightfellows.com/data-science)*
 ##### Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
 
- * Wrote [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster) - a Deep Convolutional Generative Adverserial Network (DCGAN) for creating pixel art (deployed as Flask App on AWS EC2). 
+ * Built and deployed (as a Flask app on AWS EC2) [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster) - a Tensorflow based GAN for creating pixel art, back when GANs were still relatively state-of-the art(!).
 
 #### *PhD Student Biology • UC San Diego • [Scott A. Rifkin Lab](http://labs.biology.ucsd.edu/rifkin/)*
 ##### Aug 2010 - May 2017 (La Jolla, CA)
@@ -71,6 +73,8 @@ Cornell University, 2006 - 2010
 
 Activities and interests
 ------------------------
-**Hobbies**: Running, painting, [3D modeling](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9), developing a [VR game](https://roguestargun.com), and [my tech blog](https://dublog.net)
+* [Developing the VR game Rogue Stargun (https://roguestargun.com)](https://roguestargun.com)
+* [3D modeling](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9)
+* [DuBlog (https://dublog.net)](https://dublog.net)
 
 **Extracurricular Activities**: UCSD GSA Lobby Corps • [BioEASI Art and Science Board](https://bioeasi.ucsd.edu/) • Genetics Training Program Grant • Hughes Scholar (2009) • [Cornell Undergraduate Research Board (Vice President)](https://www.cornellcurb.com/) • Friends of Farmworkers

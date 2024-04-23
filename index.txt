@@ -1,22 +1,18 @@
+Lawrence Du
 
-
-LAWRENCE DU
-
-
-  MACHINE LEARNING • BIOTECHNOLOGY • CLOUD
+  Machine Learning • Biotechnology • Cloud
 
   [mail]larrydu88@gmail.com | [phone]626-808-7096 |
   [github]github.com/LarsDu | [linkedin]linkedin.com/in/LarsDu
 
   2911 McKinley Dr. Santa Clara, CA 95051
 
-
 Skills
 
 Techniques
 
-Neural networks (CNNs, GANs, GraphNN, Transformers), Louvain/Leiden,
-_k_-fold cross-validation, SVMs, PCA, decision trees
+Neural networks (CNNs, GraphNN, Transformers), Louvain/Leiden, k-fold
+cross-validation, SVMs, PCA, decision trees
 
 Tools
 
@@ -28,17 +24,21 @@ Languages
 Python, SQL, C#, Java, Dart, Bash, C/C++, Matlab, Some Mandarin and
 Spanish
 
-
 Experience
 
-_Senior Machine Learning Platform Engineer_ • Freenome
+Senior Machine Learning Platform Engineer • Freenome
 
 Aug 2022 - Present (San Francisco, CA)
 
--   Developed cloud based research tooling for classifying cancer
-    disease risk using Kubernetes, Terraform, Docker, and Google Cloud.
+-   Built a platform for distributed training of large-scale machine
+    learning models for cancer detection using PyTorch, Ray, and
+    Kubernetes.
+-   Developed and refined methylated cell-free DNA based models for
+    Colorectal Cancer (CRC) detection.
+-   Deployed and managed an organization-wide MLFlow based model
+    tracking system.
 
-_Software Engineer - Machine Learning Engineering • 23andMe_
+Software Engineer - Machine Learning Engineering • 23andMe
 
 Apr 2020 - Aug 2022 (Sunnyvale, CA)
 
@@ -48,26 +48,28 @@ Apr 2020 - Aug 2022 (Sunnyvale, CA)
     Polygenic Risk Score (PRS) ML models.
 -   Improved PRS model AUCs and auPRCs through model stacking.
 
-_Data Scientist - Ancestry Product • 23andMe_
+Data Scientist - Ancestry Product • 23andMe
 
 Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
 -   Developed Recent Ancestor Locations (RAL) - a high precision, high
     recall country matching algorithm which serves >10 million customers
     worldwide.
--   Deployed RAL using MLflow and AWS Fargate
+-   Deployed RAL using MLFlow and AWS Fargate
 -   Improved graph-based techniques for unsupervised identification of
-    populations by identity-by-descent (IBD) relationships.
+    populations by genetically based identity-by-descent (IBD) family
+    relationships.
 
-_Bioinformatician IV • Scripps Research_
+Bioinformatician IV • Scripps Research
 
 May 2018 - Oct 2018 (San Diego, CA)
 
 -   Developed a classifier for organ transplant rejection using RNA
     data.
--   Wrote pipelines for Nanopore long-read sequencers using CWL.
+-   Wrote pipelines for Nanopore long-read sequencers using Common
+    Workflow Language.
 
-_Independent Consultant • Juno Diagnostics_
+Independent Consultant • Juno Diagnostics
 
 Sept 2017 - Feb 2018 (San Diego, CA)
 
@@ -76,15 +78,15 @@ Sept 2017 - Feb 2018 (San Diego, CA)
     based classifier for detecting prenatal genetic abnormalities from
     high throughput sequencing data.
 
-_Data Science Fellow • Insight_
+Data Science Fellow • Insight
 
 Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
 
--   Wrote DeepPixelMonster - a Deep Convolutional Generative Adverserial
-    Network (DCGAN) for creating pixel art (deployed as Flask App on AWS
-    EC2).
+-   Built and deployed (as a Flask app on AWS EC2) DeepPixelMonster - a
+    Tensorflow based GAN for creating pixel art, back when GANs were
+    still relatively state-of-the art(!).
 
-_PhD Student Biology • UC San Diego • Scott A. Rifkin Lab_
+PhD Student Biology • UC San Diego • Scott A. Rifkin Lab
 
 Aug 2010 - May 2017 (La Jolla, CA)
 
@@ -97,21 +99,20 @@ Aug 2010 - May 2017 (La Jolla, CA)
     embryos and analyzing data using self-written MATLAB tools for image
     segmentation, fluorescence quantification, and image deconvolution.
 
-
 Education
 
-PH.D BIOLOGY UC San Diego, 2010 - 2017
+Ph.D Biology UC San Diego, 2010 - 2017
 
-B.A. BIOLOGICAL SCIENCES _Genetics and Development, Magna Cum Laude_
+B.A. Biological Sciences Genetics and Development, Magna Cum Laude
 Cornell University, 2006 - 2010
-
 
 Activities and interests
 
-HOBBIES: Running, painting, 3D modeling, developing a VR game, and my
-tech blog
+-   Developing the VR game Rogue Stargun (https://roguestargun.com)
+-   3D modeling
+-   DuBlog (https://dublog.net)
 
-EXTRACURRICULAR ACTIVITIES: UCSD GSA Lobby Corps • BioEASI Art and
+Extracurricular Activities: UCSD GSA Lobby Corps • BioEASI Art and
 Science Board • Genetics Training Program Grant • Hughes Scholar (2009)
 • Cornell Undergraduate Research Board (Vice President) • Friends of
 Farmworkers
