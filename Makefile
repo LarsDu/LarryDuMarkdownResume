@@ -1,16 +1,17 @@
-all: index.pdf index.docx index.txt index.html 
+BASENAME = 'LawrenceDuResume'
+all: $(BASENAME).pdf $(BASENAME).docx $(BASENAME).txt $(BASENAME).html 
 
-index.html: index.md style.css
-	pandoc --standalone -c style.css --from markdown --to html5 -o index.html index.md
+$(BASENAME).html: $(BASENAME).md style.css
+	pandoc --standalone -c style.css --from markdown --to html5 -o $(BASENAME).html $(BASENAME).md
 
-index.pdf: index.html
-	wkhtmltopdf --enable-local-file-access index.html index.pdf
+$(BASENAME).pdf: $(BASENAME).html
+	wkhtmltopdf --enable-local-file-access $(BASENAME).html $(BASENAME).pdf
 
-index.docx: index.md
-	pandoc --from markdown --to docx -o index.docx index.md
+$(BASENAME).docx: $(BASENAME).md
+	pandoc --from markdown --to docx -o $(BASENAME).docx $(BASENAME).md
 
-index.txt: index.md
-	pandoc --standalone --from markdown-smart --to plain -o index.txt index.md
+$(BASENAME).txt: $(BASENAME).md
+	pandoc --standalone --from markdown-smart --to plain -o $(BASENAME).txt $(BASENAME).md
 
 clean:
 	rm -f *.html *.pdf *.docx *.txt

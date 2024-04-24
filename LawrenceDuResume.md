@@ -16,7 +16,7 @@ Neural networks (CNNs, GraphNN, Transformers), Louvain/Leiden, *k*-fold cross-va
 Tensorflow, Pytorch, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS, Google Cloud, Jenkins, Terraform, Docker, Metaflow, Kubernetes
 
 #### Languages
-Python, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://roguestargun.com), Java, Dart, Bash, C/C++, Matlab, [HTML/CSS](https://dublog.net), Some Mandarin and Spanish
+Python, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://roguestargun.com), Java, [Dart](https://github.com/LarsDu/simple_flutter_audio_recorder), Bash, C/C++, Matlab, [HTML/CSS](https://dublog.net), Some Mandarin and Spanish
 
 Experience
 --------------------
@@ -24,9 +24,10 @@ Experience
 #### *Senior Machine Learning Platform Engineer* • [Freenome](https://www.linkedin.com/company/freenome/mycompany/)
 ##### Aug 2022 - Present (South San Francisco, CA)
 
- * Built research platform for distributed training of large-scale machine learning models for cancer detection using PyTorch, Ray, and Kubernetes supporting thousands of ongoing research efforts.
+ * Built end-to-end scalable distributed machine learning pipelines using PyTorch, Ray, and Kubernetes for cancer detection from multi-omics data (deep sequencing cell-free methylated DNA, protein, and more).
+ * Built out a greenfield research engineering platform/library to support both distributed data parallel and model parallel training strategies for large-scale cancer detection models.
  * Developed and refined methylated cell-free DNA based models for Colorectal Cancer (CRC) detection.
- * Deployed and managed an organization-wide MLFlow based model tracking system for reproducibility, monitoring, and automated model performance reporting.
+ * Deployed and managed an organization-wide MLFlow based model tracking system for reproducibility, monitoring, and automated model performance reporting using Terraform, Pulumi, and Google Cloud.
 
 #### *Software Engineer - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Apr 2020 - Aug 2022 (Sunnyvale, CA)
