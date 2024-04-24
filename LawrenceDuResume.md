@@ -25,7 +25,7 @@ Experience
 ##### Aug 2022 - Present (South San Francisco, CA)
 
  * Built end-to-end scalable distributed machine learning pipelines using PyTorch, Ray, and Kubernetes for cancer detection from multi-omics data (deep sequencing cell-free methylated DNA, protein, and more).
- * Built out a greenfield research engineering platform/library to support both distributed data parallel and model parallel training strategies for large-scale cancer detection models.
+ * Built out a greenfield research engineering platform/library to support both distributed data parallel (DDP) and model parallel training strategies for large-scale cancer detection models.
  * Developed and refined methylated cell-free DNA based models for Colorectal Cancer (CRC) detection.
  * Deployed and managed an organization-wide MLFlow based model tracking system for reproducibility, monitoring, and automated model performance reporting using Terraform, Pulumi, and Google Cloud.
 
@@ -38,8 +38,7 @@ Experience
 #### *Data Scientist - Ancestry Product • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
 ##### Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
- * Developed Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >10 million customers worldwide.
- * Deployed RAL using MLFlow and AWS Fargate
+ * Developed and deployed (using MLFlow + AWS Fargate) Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >13 million customers worldwide
  * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationships.
 
 #### *Bioinformatician IV • [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html)*

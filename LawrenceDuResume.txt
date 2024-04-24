@@ -35,8 +35,8 @@ Aug 2022 - Present (South San Francisco, CA)
     multi-omics data (deep sequencing cell-free methylated DNA, protein,
     and more).
 -   Built out a greenfield research engineering platform/library to
-    support both distributed data parallel and model parallel training
-    strategies for large-scale cancer detection models.
+    support both distributed data parallel (DDP) and model parallel
+    training strategies for large-scale cancer detection models.
 -   Developed and refined methylated cell-free DNA based models for
     Colorectal Cancer (CRC) detection.
 -   Deployed and managed an organization-wide MLFlow based model
@@ -58,10 +58,9 @@ Data Scientist - Ancestry Product • 23andMe
 
 Nov 2018 - Apr 2020 (Sunnyvale, CA)
 
--   Developed Recent Ancestor Locations (RAL) - a high precision, high
-    recall country matching algorithm which serves >10 million customers
-    worldwide.
--   Deployed RAL using MLFlow and AWS Fargate
+-   Developed and deployed (using MLFlow + AWS Fargate) Recent Ancestor
+    Locations (RAL) - a high precision, high recall country matching
+    algorithm which serves >13 million customers worldwide
 -   Improved graph-based techniques for unsupervised identification of
     populations by genetically based identity-by-descent (IBD) family
     relationships.
