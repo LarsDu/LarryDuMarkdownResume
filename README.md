@@ -1,5 +1,5 @@
 # LarryDuMarkdownResume
-*A resume made in markdown and easily converted to pdf, docx, and text*
+*My resume made in markdown and easily converted to pdf, docx, and text*
 
 ## [View resume as github markdown w/ clickable links](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/index.md)
 ## [View resume as pdf](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/index.pdf)
@@ -14,6 +14,6 @@ Here I [wrote my resume in markdown](https://github.com/LarsDu/LarryDuMarkdownRe
  * wkhtmltopdf
  
 ## Instructions:
-To rebuild simply first run `make clean` to wipe non markdown files, then run `make all`
+To rebuild simply first run `make clean` to wipe non-markdown files, then run `make all`
 
 
