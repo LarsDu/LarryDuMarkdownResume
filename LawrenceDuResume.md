@@ -10,42 +10,37 @@ Lawrence Du
 Skills
 --------------------
 #### Techniques
-Neural networks (CNNs, GraphNN, Transformers), Louvain/Leiden, *k*-fold cross-validation, SVMs, PCA, decision trees
+Neural networks (Transformers, CNNs, GraphNN, Diffusion), Large Language Models (LLMs), SVMs, PCA, KNN, decision trees
 
 #### Tools
-Tensorflow, Pytorch, Jax, Numpy, Numba, Pandas, Sklearn, Conda, Flask, AWS, Google Cloud, Jenkins, Terraform, Docker, Metaflow, Kubernetes
+PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes
 
 #### Languages
-Python, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://roguestargun.com), Java, [Dart](https://github.com/LarsDu/simple_flutter_audio_recorder), Bash, C/C++, Matlab, [HTML/CSS](https://dublog.net), Some Mandarin and Spanish
+Python, C/C++, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://roguestargun.com), Java, [Dart](https://github.com/LarsDu/simple_flutter_audio_recorder), Bash, [HTML/CSS](https://dublog.net), Some Mandarin and Spanish
 
 Experience
 --------------------
 
 #### *Senior Machine Learning Platform Engineer* • [Freenome](https://www.linkedin.com/company/freenome/mycompany/)
-##### Aug 2022 - Present (South San Francisco, CA)
+##### Aug 2022 - Jun 2024 (South San Francisco, CA)
 
- * Built end-to-end scalable distributed machine learning pipelines using PyTorch, Ray, and Kubernetes for cancer detection from multi-omics data (deep sequencing cell-free methylated DNA, protein, and more).
- * Built out a greenfield research engineering platform/library to support both distributed data parallel (DDP) and model parallel training strategies for large-scale cancer detection models.
- * Developed and refined methylated cell-free DNA based models for Colorectal Cancer (CRC) detection.
+ * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data.
+ * Built scalable multitask learning, elastic net, and neural network based models with improved performance for classifying Colorectal Cancer risk from cell-free DNA data.
+ * Piloted a project to summarize biomedical literature using an LLM, first using GPT-4 and then via fine-tuning an open source LLM using DPO (direct policty optimization).
  * Deployed and managed an organization-wide MLFlow based model tracking system for reproducibility, monitoring, and automated model performance reporting using Terraform, Pulumi, and Google Cloud.
 
-#### *Software Engineer - Machine Learning Engineering • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
-##### Apr 2020 - Aug 2022 (Sunnyvale, CA)
+#### *Software Engineer - Machine Learning Engineering • Data Scientist (prior to 2020) - Ancestry Product [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
+##### Nov 2018 - Aug 2022 (Sunnyvale, CA)
 
  * Built a large-scale feature engineering ETL pipeline for imputed SNPs (~10 million samples x ~1 million SNPs) using AWS Batch, Metaflow, AWS Glue, and AWS Athena used to feed downstream GWAS and Polygenic Risk Score (PRS) ML models.
- * Improved PRS model AUCs and auPRCs through model stacking approaches.
-
-#### *Data Scientist - Ancestry Product • [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*
-##### Nov 2018 - Apr 2020 (Sunnyvale, CA)
-
- * Developed and deployed (using MLFlow + AWS Fargate) Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >13 million customers worldwide
+ * Improved PRS model AUCs and auPRC performance metrics through model stacking approaches.
+ * Developed and deployed (using MLFlow + AWS Fargate) Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >15 million customers worldwide.
  * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationships.
 
 #### *Bioinformatician IV • [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html)*
 ##### May 2018 - Oct 2018 (San Diego, CA)
 
- * Developed a classifier for organ transplant rejection using RNA data.
- * Wrote pipelines for Nanopore long-read sequencers using Common Workflow Language.
+ * Developed a classifier for organ transplant rejection using RNA data and wrote pipelines for Nanopore long-read sequencers using Common Workflow Language.
 
 #### *Independent Consultant • [Juno Diagnostics](https://www.linkedin.com/company/juno-diagnostics/)*
 ##### Sept 2017 - Feb 2018 (San Diego, CA)
