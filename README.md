@@ -1,12 +1,15 @@
-# LarryDuMarkdownResume
+# LarryDuMarkdownResume (game dev oriented)
 *My resume made in markdown and easily converted to pdf, docx, and text*
 
-## [View resume as github markdown w/ clickable links](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/LawrenceDuResume.md)
-## [View resume as pdf](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/LawrenceDuResume.pdf)
+This version of my resume highlights some game dev releated work I've done in my spare time which may be relevant for certain roles.
+
+## [View resume as github markdown w/ clickable links](https://github.com/LarsDu/LarryDuMarkdownResume/blob/gamedev/LawrenceDuResume.md)
+## [View resume as pdf](https://github.com/LarsDu/LarryDuMarkdownResume/blob/gamedev/LawrenceDuResume.pdf)
 
 Inspired from https://github.com/chmduquesne/resume
 
 Here I [wrote my resume in markdown](https://github.com/LarsDu/LarryDuMarkdownResume/blob/main/LawrenceDuResume.md) and then used pandoc to cross compile the resume into .docx, .pdf, and .txt formats. This allows me to use version control on my resume easily, is simpler to maintain than a LaTeX based resume, and style/formatting can be handled by using css (the style.css file in the repo).
+
 
 #### Requires:
 

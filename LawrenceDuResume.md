@@ -1,7 +1,7 @@
 Lawrence Du
 =========================
 
-> **Machine Learning** • **Biotechnology** • **Cloud**
+> **Machine Learning** • **Biotechnology** • **Cloud** • **AR/XR**
 
 > ![mail](icons/png/mail.png)[larrydu88@gmail.com](mailto:larrydu88@gmail.com) | ![phone](icons/png/whatsapp.png)626-808-7096 | ![github](icons/png/github.png)[github.com/LarsDu](http://github.com/LarsDu) | ![linkedin](icons/png/linkedin.png)[linkedin.com/in/LarsDu](http://linkedin.com/in/LarsDu)
 
@@ -13,13 +13,18 @@ Skills
 Neural networks (Transformers, CNNs, GraphNN, Diffusion), Large Language Models (LLMs), SVMs, PCA, KNN, decision trees
 
 #### Tools
-PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes
+Unity, Godot, Bevy, PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Kubernetes
 
 #### Languages
 Python, C/C++, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://roguestargun.com), Java, [Dart](https://github.com/LarsDu/simple_flutter_audio_recorder), Bash, [HTML/CSS](https://dublog.net), Some Mandarin and Spanish
 
 Experience
 --------------------
+#### *Owner/Founder* • [DuGames](https://dugames.org)
+
+ * Solo-developed [Rogue Stargun](https://roguestargun.com), a pandemic hobby gamedev project that developed into a full fledged shipped VR space shooter sim. Released to Meta Applab in Februrary 2024 and Steam in March 2024.
+ * Developed text-to-speech synthesis integrations for the Unity Game engine editor with ElevenLabs.io, Google Cloud, and Microsoft Azure for rapid single-player campaign dialogue generation. Rogue Stargun was an ElevenLabs Grant Recipient.
+ * Optimized draw calls using static batching, gpu instancing, custom shaders, and baked materials to achieve acceptable (>72 fps) frame rates for the Oculus Quest platform.
 
 #### *Senior Machine Learning Platform Engineer* • [Freenome](https://www.linkedin.com/company/freenome/mycompany/)
 ##### Aug 2022 - Jun 2024 (South San Francisco, CA)
@@ -65,10 +70,3 @@ UC San Diego, 2010 - 2017
 
 **B.A. Biological Sciences** *Genetics and Development, Magna Cum Laude*
 Cornell University, 2006 - 2010
-
-Activities and interests
-------------------------
-* [Developing the VR game Rogue Stargun (https://roguestargun.com)](https://roguestargun.com)
-* [3D modeling with Blender3D](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9)
-* [Painting](https://dublog.net/images/stable-diffusion-img2img/larryd.png)
-* [DuBlog (https://dublog.net)](https://dublog.net) - Self deployed using Google Cloud, Hugo, and Github Actions

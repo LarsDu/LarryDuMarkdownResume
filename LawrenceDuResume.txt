@@ -1,6 +1,6 @@
 Lawrence Du
 
-  Machine Learning • Biotechnology • Cloud
+  Machine Learning • Biotechnology • Cloud • AR/XR
 
   [mail]larrydu88@gmail.com | [phone]626-808-7096 |
   [github]github.com/LarsDu | [linkedin]linkedin.com/in/LarsDu
@@ -16,8 +16,8 @@ Models (LLMs), SVMs, PCA, KNN, decision trees
 
 Tools
 
-PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google
-Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes
+Unity, Godot, Bevy, PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn,
+Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Kubernetes
 
 Languages
 
@@ -25,6 +25,19 @@ Python, C/C++, Rust, SQL, C#, Java, Dart, Bash, HTML/CSS, Some Mandarin
 and Spanish
 
 Experience
+
+Owner/Founder • DuGames
+
+-   Solo-developed Rogue Stargun, a pandemic hobby gamedev project that
+    developed into a full fledged shipped VR space shooter sim. Released
+    to Meta Applab in Februrary 2024 and Steam in March 2024.
+-   Developed text-to-speech synthesis integrations for the Unity Game
+    engine editor with ElevenLabs.io, Google Cloud, and Microsoft Azure
+    for rapid single-player campaign dialogue generation. Rogue Stargun
+    was an ElevenLabs Grant Recipient.
+-   Optimized draw calls using static batching, gpu instancing, custom
+    shaders, and baked materials to achieve acceptable (>72 fps) frame
+    rates for the Oculus Quest platform.
 
 Senior Machine Learning Platform Engineer • Freenome
 
@@ -105,11 +118,3 @@ Ph.D Biology UC San Diego, 2010 - 2017
 
 B.A. Biological Sciences Genetics and Development, Magna Cum Laude
 Cornell University, 2006 - 2010
-
-Activities and interests
-
--   Developing the VR game Rogue Stargun (https://roguestargun.com)
--   3D modeling with Blender3D
--   Painting
--   DuBlog (https://dublog.net) - Self deployed using Google Cloud,
-    Hugo, and Github Actions
