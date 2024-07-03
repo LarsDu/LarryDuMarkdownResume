@@ -69,6 +69,7 @@ Cornell University, 2006 - 2010
 Activities and interests
 ------------------------
 * [Developing the VR game Rogue Stargun (https://roguestargun.com)](https://roguestargun.com)
+* [Ludum Dare Game Jams](https://ldjam.com/users/larsdu/games)
 * [3D modeling with Blender3D](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9)
 * [Painting](https://dublog.net/images/stable-diffusion-img2img/larryd.png)
 * [DuBlog (https://dublog.net)](https://dublog.net) - Self deployed using Google Cloud, Hugo, and Github Actions
