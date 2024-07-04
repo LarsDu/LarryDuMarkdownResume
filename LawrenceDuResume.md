@@ -26,7 +26,7 @@ Experience
 
  * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data.
  * Built scalable multitask learning, elastic net, and neural network based models with improved performance for classifying Colorectal Cancer risk from cell-free DNA data.
- * Piloted a project to summarize biomedical literature using an LLM, first using GPT-4 and then via fine-tuning an open source LLM using DPO (direct policty optimization).
+ * Piloted a project to summarize biomedical literature using an LLM, first using GPT-4 and then via fine-tuning an open source LLM using DPO (direct policy optimization).
  * Deployed and managed an organization-wide MLFlow based model tracking system for reproducibility, monitoring, and automated model performance reporting using Terraform, Pulumi, and Google Cloud.
 
 #### *Software Engineer - Machine Learning Engineering • Data Scientist (prior to 2020) - Ancestry Product [23andMe](https://www.linkedin.com/company/23andme/mycompany/)*

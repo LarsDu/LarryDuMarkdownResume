@@ -39,7 +39,7 @@ Aug 2022 - Jun 2024 (South San Francisco, CA)
     Cancer risk from cell-free DNA data.
 -   Piloted a project to summarize biomedical literature using an LLM,
     first using GPT-4 and then via fine-tuning an open source LLM using
-    DPO (direct policty optimization).
+    DPO (direct policy optimization).
 -   Deployed and managed an organization-wide MLFlow based model
     tracking system for reproducibility, monitoring, and automated model
     performance reporting using Terraform, Pulumi, and Google Cloud.
