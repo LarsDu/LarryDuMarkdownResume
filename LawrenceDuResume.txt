@@ -121,5 +121,4 @@ Cornell University, 2006 - 2010
 Activities and interests
 
 DuBlog (https://dublog.net) • Developing the VR game Rogue Stargun
-(https://roguestargun.com) • Ludum Dare Game Jams • 3D modeling with
-Blender3D
+(https://roguestargun.com) • Ludum Dare Game Jams • Blender3D
