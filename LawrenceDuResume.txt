@@ -1,12 +1,10 @@
 Lawrence Du
 
-  Machine Learning • Biotechnology • Cloud
-
   [mail]larrydu88@gmail.com | [phone]626-808-7096 |
   [github]github.com/LarsDu | [linkedin]linkedin.com/in/LarsDu |
   [dublog.net]dublog.net
 
-  2911 McKinley Dr. Santa Clara, CA 95051
+  2911 McKinley Dr Santa Clara, CA 95051
 
 Skills
 
@@ -27,9 +25,9 @@ and Spanish
 
 Experience
 
-Senior Machine Learning Platform Engineer • Freenome
+Freenome • Senior Machine Learning Platform Engineer
 
-Aug 2022 - Jun 2024 (South San Francisco, CA)
+8/2022 - 6/2024 (South San Francisco, CA)
 
 -   Led greenfield project building end-to-end scalable distributed
     machine learning platform using PyTorch, Ray, and Kubernetes for
@@ -48,9 +46,9 @@ Aug 2022 - Jun 2024 (South San Francisco, CA)
     first using GPT-4 and then via fine-tuning an open source LLM using
     DPO (direct policy optimization).
 
-Software Engineer - Machine Learning Engineering • Data Scientist (prior to 2020) - Ancestry Product 23andMe
+23andMe • Machine Learning Engineer • Data Scientist (prior to 2020)
 
-Nov 2018 - Aug 2022 (Sunnyvale, CA)
+11/2018 - 8/2022 (Sunnyvale, CA)
 
 -   Built a large-scale feature engineering ETL pipeline for imputed
     SNPs (~10 million samples x ~1 million SNPs) using AWS Batch,
@@ -73,32 +71,32 @@ Nov 2018 - Aug 2022 (Sunnyvale, CA)
     sub-populations in Mexico and the United Kingdom in an
     semi-unsupervised manner.
 
-Bioinformatician IV • Scripps Research
+Scripps Research • Bioinformatician IV
 
-May 2018 - Oct 2018 (San Diego, CA)
+5/2018 - 10/2018 (San Diego, CA)
 
 -   Developed a classifier for organ transplant rejection using RNA data
     and wrote pipelines for Nanopore long-read sequencers using Common
     Workflow Language.
 
-Independent Consultant • Juno Diagnostics
+Juno Diagnostics • Independent Consultant
 
-Sept 2017 - Feb 2018 (San Diego, CA)
+09/2017 - 02/2018 (San Diego, CA)
 
 -   Developed patent -- US20210020314A1 - Deep learning-based methods,
     devices, and systems for prenatal testing along with a Tensorflow
     based classifier for detecting prenatal genetic abnormalities from
     high throughput sequencing data.
 
-Data Science Fellow • Insight
+Insight • Data Science Fellow
 
-Jan 2017 - Apr 2017 (Remote Session - San Diego, CA)
+01/2017 - 04/2017 (Remote Session - San Diego, CA)
 
 -   Built and deployed (as a Flask app on AWS EC2) DeepPixelMonster - a
     Tensorflow based GAN for creating pixel art, back when GANs were
     still relatively state-of-the art.
 
-PhD Student Biology • UC San Diego • Scott A. Rifkin Lab
+UC San Diego • PhD Student Biology • Scott A. Rifkin Lab
 
 Aug 2010 - May 2017 (La Jolla, CA)
 
