@@ -60,14 +60,14 @@ h4 {
 h5{
     color: #989898;
     margin-top: 2px;
-    margin-botton: 3px;
+    margin-bottom: 3px;
     padding: 0px;
 }
 
 /* Definitions */
 dl{
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 dt {
     float: left;

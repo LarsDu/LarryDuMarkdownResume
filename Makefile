@@ -1,4 +1,4 @@
-BASENAME=LawrenceDuResume
+BASENAME=LawrenceDuResumeXR
 all: $(BASENAME).pdf $(BASENAME).docx $(BASENAME).txt $(BASENAME).html 
 
 $(BASENAME).html: $(BASENAME).md style.css
