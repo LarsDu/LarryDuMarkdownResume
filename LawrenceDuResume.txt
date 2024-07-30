@@ -1,5 +1,7 @@
 Lawrence Du
 
+  Machine Learning • AR/XR
+
   [mail]larrydu88@gmail.com | [phone]626-808-7096 |
   [github]github.com/LarsDu | [linkedin]linkedin.com/in/LarsDu |
   [dublog.net]dublog.net
@@ -25,9 +27,22 @@ and Spanish
 
 Experience
 
+DuGames • Owner/Founder
+
+-   Solo-developed Rogue Stargun, a pandemic hobby gamedev project that
+    developed into a full fledged shipped VR space shooter sim. Released
+    to Meta Applab in Februrary 2024 and Steam in March 2024.
+-   Developed text-to-speech synthesis integrations for the Unity Game
+    engine editor with ElevenLabs.io, Google Cloud, and Microsoft Azure
+    for rapid single-player campaign dialogue generation. Rogue Stargun
+    was an ElevenLabs Grant Recipient.
+-   Optimized draw calls using static batching, gpu instancing, custom
+    shaders, and baked materials to achieve acceptable (>72 fps) frame
+    rates for the Oculus Quest platform.
+
 Freenome • Senior Machine Learning Platform Engineer
 
-8/2022 - 6/2024 (South San Francisco, CA)
+08/2022 - 06/2024 (South San Francisco, CA)
 
 -   Led greenfield project building end-to-end scalable distributed
     machine learning platform using PyTorch, Ray, and Kubernetes for
@@ -48,7 +63,7 @@ Freenome • Senior Machine Learning Platform Engineer
 
 23andMe • Machine Learning Engineer • Data Scientist (prior to 2020)
 
-11/2018 - 8/2022 (Sunnyvale, CA)
+11/2018 - 08/2022 (Sunnyvale, CA)
 
 -   Built a large-scale feature engineering ETL pipeline for imputed
     SNPs (~10 million samples x ~1 million SNPs) using AWS Batch,
@@ -73,7 +88,7 @@ Freenome • Senior Machine Learning Platform Engineer
 
 Scripps Research • Bioinformatician IV
 
-5/2018 - 10/2018 (San Diego, CA)
+05/2018 - 10/2018 (San Diego, CA)
 
 -   Developed a classifier for organ transplant rejection using RNA data
     and wrote pipelines for Nanopore long-read sequencers using Common
@@ -98,7 +113,7 @@ Insight • Data Science Fellow
 
 UC San Diego • PhD Student Biology • Scott A. Rifkin Lab
 
-Aug 2010 - May 2017 (La Jolla, CA)
+08/2010 - 05/2017 (La Jolla, CA)
 
 -   Wrote DeepNuc - a CNN model for classifying over 500,000
     transcriptional start site (TSS) flanking sequences from humans,

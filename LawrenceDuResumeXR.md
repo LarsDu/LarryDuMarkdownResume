@@ -1,7 +1,7 @@
 Lawrence Du
 =========================
 
-> **Machine Learning Engineer **
+> **Machine Learning** • **AR/XR**
 
 > ![mail](icons/png/mail.png)[larrydu88@gmail.com](mailto:larrydu88@gmail.com) | ![phone](icons/png/whatsapp.png)626-808-7096 | ![github](icons/png/github.png)[github.com/LarsDu](https://github.com/LarsDu) | ![linkedin](icons/png/linkedin.png)[linkedin.com/in/LarsDu](https://linkedin.com/in/LarsDu) | ![dublog.net](icons/png/blogger-alt.png)[dublog.net](https://dublog.net)
 
@@ -21,8 +21,14 @@ Python, C/C++, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://ro
 
 Experience
 --------------------
+#### [DuGames](https://dugames.org) • *Owner/Founder*
+
+ * Solo-developed [Rogue Stargun](https://roguestargun.com), a pandemic hobby gamedev project that developed into a full fledged shipped VR space shooter sim. Released to Meta Applab in Februrary 2024 and Steam in March 2024.
+ * Developed text-to-speech synthesis integrations for the Unity Game engine editor with ElevenLabs.io, Google Cloud, and Microsoft Azure for rapid single-player campaign dialogue generation. Rogue Stargun was an ElevenLabs Grant Recipient.
+ * Optimized draw calls using static batching, gpu instancing, custom shaders, and baked materials to achieve acceptable (>72 fps) frame rates for the Oculus Quest platform.
+
 #### [Freenome](https://www.linkedin.com/company/freenome/mycompany/) • *Senior Machine Learning Platform Engineer* 
-##### 8/2022 - 6/2024 (South San Francisco, CA)
+##### 08/2022 - 06/2024 (South San Francisco, CA)
 
  * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data, enabling training of much larger models leveraging data distributed parallel (DDP) processing.
  * Deployed and managed an organization-wide MLFlow based model tracking system using Terraform, Pulumi, and Google Cloud enabling live monitoring of deep learning model training progress, instantaneous sharing results, and completely automated and reproducible report generation.
@@ -30,7 +36,7 @@ Experience
  * Piloted a project to summarize biomedical literature using an LLM, first using GPT-4 and then via fine-tuning an open source LLM using DPO (direct policy optimization).
 
 #### [23andMe](https://www.linkedin.com/company/23andme/mycompany/) • *Machine Learning Engineer* • *Data Scientist (prior to 2020)*
-##### 11/2018 - 8/2022 (Sunnyvale, CA)
+##### 11/2018 - 08/2022 (Sunnyvale, CA)
 
  * Built a large-scale feature engineering ETL pipeline for imputed SNPs (~10 million samples x ~1 million SNPs) using AWS Batch, Metaflow, AWS Glue, and AWS Athena enabling creation of higher quality GWAS and Polygenic Risk Score (PRS) ML models.
  * Built improved models for type 2 diabetes and Coronary Artery Disease by building model stacking into production PRS pipelines, improving the sensitivity and specificity of 23andme tests for tens of thousands of customers.
@@ -39,7 +45,7 @@ Experience
  * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationship, demonstrating an effective way to segment sub-populations in Mexico and the United Kingdom in an semi-unsupervised manner.
 
 #### [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html) • *Bioinformatician IV*
-##### 5/2018 - 10/2018 (San Diego, CA)
+##### 05/2018 - 10/2018 (San Diego, CA)
 
  * Developed a classifier for organ transplant rejection using RNA data and wrote pipelines for Nanopore long-read sequencers using Common Workflow Language.
 
