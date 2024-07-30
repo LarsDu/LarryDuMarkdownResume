@@ -1,7 +1,7 @@
 Lawrence Du
 =========================
 
-> **Machine Learning Engineer **
+> **Machine Learning**
 
 > ![mail](icons/png/mail.png)[larrydu88@gmail.com](mailto:larrydu88@gmail.com) | ![phone](icons/png/whatsapp.png)626-808-7096 | ![github](icons/png/github.png)[github.com/LarsDu](https://github.com/LarsDu) | ![linkedin](icons/png/linkedin.png)[linkedin.com/in/LarsDu](https://linkedin.com/in/LarsDu) | ![dublog.net](icons/png/blogger-alt.png)[dublog.net](https://dublog.net)
 
@@ -10,7 +10,7 @@ Lawrence Du
 Skills
 --------------------
 #### Techniques
-Neural networks (Transformers, CNNs, GraphNN, Diffusion), Large Language Models (LLMs), SVMs, PCA, KNN, decision trees
+Neural networks (Transformers, CNNs, GraphNN, Diffusion), Large Language Models (LLMs), Louvain/Leiden algorithm, SVMs, PCA, KNN, decision trees
 
 #### Tools
 PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes
@@ -22,24 +22,25 @@ Python, C/C++, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://ro
 Experience
 --------------------
 #### [Freenome](https://www.linkedin.com/company/freenome/mycompany/) • *Senior Machine Learning Platform Engineer* 
-##### 8/2022 - 6/2024 (South San Francisco, CA)
+##### 08/2022 - 06/2024 (South San Francisco, CA)
 
  * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data, enabling training of much larger models leveraging data distributed parallel (DDP) processing.
  * Deployed and managed an organization-wide MLFlow based model tracking system using Terraform, Pulumi, and Google Cloud enabling live monitoring of deep learning model training progress, instantaneous sharing results, and completely automated and reproducible report generation.
  * Built scalable multitask learning, elastic net, and neural network based models in PyTorch with improved performance for classifying Colorectal Cancer risk from cell-free DNA data.
- * Piloted a project to summarize biomedical literature using an LLM, first using GPT-4 and then via fine-tuning an open source LLM using DPO (direct policy optimization).
+ * Piloted a project to summarize biomedical literature using LLMs, first using GPT-4 and later by fine-tuning an open source LLM via RHLF/DPO (direct policy optimization), demonstrating the viability of using LLMs to parse unstructured biomedical records for scaling up feature extraction.
 
 #### [23andMe](https://www.linkedin.com/company/23andme/mycompany/) • *Machine Learning Engineer* • *Data Scientist (prior to 2020)*
-##### 11/2018 - 8/2022 (Sunnyvale, CA)
+##### 11/2018 - 08/2022 (Sunnyvale, CA)
 
  * Built a large-scale feature engineering ETL pipeline for imputed SNPs (~10 million samples x ~1 million SNPs) using AWS Batch, Metaflow, AWS Glue, and AWS Athena enabling creation of higher quality GWAS and Polygenic Risk Score (PRS) ML models.
- * Built improved models for type 2 diabetes and Coronary Artery Disease by building model stacking into production PRS pipelines, improving the sensitivity and specificity of 23andme tests for tens of thousands of customers.
+ * Built improved models for type 2 diabetes and Coronary Artery Disease by building model stacking into production PRS pipelines, improving the sensitivity and specificity of 23andMe tests for tens of thousands of customers.
+ * Automated performance metric report generation for all polygenic risk score classifiers leveraging MLFlow artifact storage and headless jupyter execution, reducing researcher time spent on analysis from days to minutes.
  * Developed and deployed (using MLFlow + AWS Fargate) Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >15 million customers worldwide.
  * Piloted adoption of MLFlow for experiment tracking and model registry, additionally building completely automated realtime performance metric reporting, eliminating a key source of pipeline fragmentation and redundancy.
- * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationship, demonstrating an effective way to segment sub-populations in Mexico and the United Kingdom in an semi-unsupervised manner.
+ * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationship, demonstrating an effective way to segment sub-populations (graph community detection) in Mexico and the United Kingdom in an semi-unsupervised manner.
 
 #### [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html) • *Bioinformatician IV*
-##### 5/2018 - 10/2018 (San Diego, CA)
+##### 05/2018 - 10/2018 (San Diego, CA)
 
  * Developed a classifier for organ transplant rejection using RNA data and wrote pipelines for Nanopore long-read sequencers using Common Workflow Language.
 
@@ -49,7 +50,7 @@ Experience
  * Developed patent -- [US20210020314A1 - Deep learning-based methods, devices, and systems for prenatal testing](https://patents.google.com/patent/US20210020314A1) along with a Tensorflow based classifier for detecting prenatal genetic abnormalities from high throughput sequencing data.
 
 #### [Insight](https://insightfellows.com/data-science) • *Data Science Fellow*
-##### 01/2017 - 04/2017 (Remote Session - San Diego, CA)
+##### 01/2017 - 04/2017 (Remote)
 
  * Built and deployed (as a Flask app on AWS EC2) [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster) - a Tensorflow based GAN for creating pixel art, back when GANs were still relatively state-of-the art.
 

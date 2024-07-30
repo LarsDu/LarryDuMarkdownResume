@@ -54,13 +54,13 @@ h3 {
 }
 
 h4 {
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 h5{
     color: #989898;
     margin-top: 2px;
-    margin-botton: 3px;
+    margin-bottom: 3px;
     padding: 0px;
 }
 
@@ -80,7 +80,7 @@ dd {
     margin-left: 20%;
 }
 p {
-    margin-top:0;
+    margin-top:1px;
     margin-bottom:3px;
 }
 
@@ -101,6 +101,7 @@ ul{
 
 li{
     margin-top: 2px;
+    margin-bottom: 1px;
 }
 
 /* Links */
