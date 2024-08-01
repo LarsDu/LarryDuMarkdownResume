@@ -57,10 +57,6 @@ Freenome • Senior Machine Learning Platform Engineer
 -   Created and deployed into production Recent Ancestor Locations
     (RAL) - a high precision, high recall country matching algorithm
     which serves >15 million customers worldwide.
--   Piloted adoption of MLFlow for experiment tracking and model
-    registration, additionally building completely automated realtime
-    performance metric reporting saving researchers hours of time spent
-    on analytics.
 -   Improved graph-based techniques for unsupervised identification of
     populations by genetically based identity-by-descent (IBD) family
     relationship, demonstrating an effective way to segment
