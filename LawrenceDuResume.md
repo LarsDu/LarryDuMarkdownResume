@@ -30,7 +30,7 @@ Experience
  * Piloted a project to summarize biomedical literature using LLMs, first using GPT-4 and later by fine-tuning an open source LLM via RHLF/DPO (direct preference optimization), demonstrating the viability of using LLMs to parse unstructured biomedical records for scaling up feature extraction.
 
 #### [23andMe](https://www.linkedin.com/company/23andme/mycompany/) • *Machine Learning Engineer* • *Data Scientist (prior to 2020)*
-##### 11/2018 - 08/2022 (Sunnyvale, CA)\
+##### 11/2018 - 08/2022 (Sunnyvale, CA)
 
  * Created and deployed into production Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >15 million customers worldwide.
  * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationship, demonstrating an effective way to segment sub-populations (graph community detection) in Mexico and the United Kingdom in an semi-unsupervised manner.

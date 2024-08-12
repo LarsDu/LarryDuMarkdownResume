@@ -52,7 +52,7 @@ Freenome • Senior Machine Learning Platform Engineer
 
 23andMe • Machine Learning Engineer • Data Scientist (prior to 2020)
 
-11/2018 - 08/2022 (Sunnyvale, CA) 
+11/2018 - 08/2022 (Sunnyvale, CA)
 
 -   Created and deployed into production Recent Ancestor Locations
     (RAL) - a high precision, high recall country matching algorithm
