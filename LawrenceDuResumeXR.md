@@ -25,24 +25,25 @@ Experience
 
  * Solo-developed [Rogue Stargun](https://roguestargun.com), a pandemic hobby gamedev project that developed into a full fledged shipped VR space shooter sim. Released to Meta Applab in Februrary 2024 and Steam in March 2024.
  * Developed text-to-speech synthesis integrations for the Unity Game engine editor with ElevenLabs.io, Google Cloud, and Microsoft Azure for rapid single-player campaign dialogue generation. Rogue Stargun was an ElevenLabs Grant Recipient.
- * Optimized draw calls using static batching, gpu instancing, custom shaders, and baked materials to achieve acceptable (>72 fps) frame rates for the Oculus Quest platform.
+ * Optimized draw calls using static batching, gpu instancing, custom shaders, and baked materials to achieve acceptable (>72 fps) frame rates for the Oculus Quest platform while supporting starfighter fleet battles of over 64 AI starfighters at once.
+ * Modeled in-game cockpits, starfighters, powerups, and "mech walkers" (>100 items) along with custom materials and shaders for extra pizzaz in Blender 3D.
 
-#### [Freenome](https://www.linkedin.com/company/freenome/mycompany/) • *Senior Machine Learning Platform Engineer* 
+#### [Freenome](https://www.linkedin.com/company/freenome/mycompany/) • *Senior Machine Learning Research Engineer* 
 ##### 08/2022 - 06/2024 (South San Francisco, CA)
 
- * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data, enabling training of much larger models leveraging data distributed parallel (DDP) processing.
- * Deployed and managed an organization-wide MLFlow based model tracking system using Terraform, Pulumi, and Google Cloud enabling live monitoring of deep learning model training progress, instantaneous sharing results, and completely automated and reproducible report generation.
- * Built scalable multitask learning, elastic net, and neural network based models in PyTorch with improved performance for classifying Colorectal Cancer risk from cell-free DNA data.
- * Piloted a project to summarize biomedical literature using an LLM, first using GPT-4 and then via fine-tuning an open source LLM using DPO (direct policy optimization).
+ * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data, enabling training of much larger models leveraging data distributed parallel (DDP) processing speeding up model training by >10x.
+ * Deployed and managed an organization-wide MLFlow based model tracking system using Terraform, Pulumi, and Google Cloud enabling live-monitoring of deep learning model training progress, instantaneous results sharing, and completely automated and reproducible report generation - reducing researcher manual effort by at least 5x.
+ * Built scalable multitask learning, elastic net, and neural network based models in PyTorch with improved performance for classifying Colorectal Cancer risk from cell-free DNA data for a clinical trial cohort of >27,000 individuals.
+ * Piloted a project to summarize biomedical literature using LLMs, first using GPT-4 and later by fine-tuning an open source LLM via RHLF/DPO (direct preference optimization), demonstrating the viability of using LLMs to parse unstructured biomedical records for scaling up feature extraction.
 
 #### [23andMe](https://www.linkedin.com/company/23andme/mycompany/) • *Machine Learning Engineer* • *Data Scientist (prior to 2020)*
 ##### 11/2018 - 08/2022 (Sunnyvale, CA)
 
+ * Created and deployed into production Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >15 million customers worldwide.
+ * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationship, demonstrating an effective way to segment sub-populations (graph community detection) in Mexico and the United Kingdom in an semi-unsupervised manner.
  * Built a large-scale feature engineering ETL pipeline for imputed SNPs (~10 million samples x ~1 million SNPs) using AWS Batch, Metaflow, AWS Glue, and AWS Athena enabling creation of higher quality GWAS and Polygenic Risk Score (PRS) ML models.
- * Built improved models for type 2 diabetes and Coronary Artery Disease by building model stacking into production PRS pipelines, improving the sensitivity and specificity of 23andme tests for tens of thousands of customers.
- * Developed and deployed (using MLFlow + AWS Fargate) Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves >15 million customers worldwide.
- * Piloted adoption of MLFlow for experiment tracking and model registry, additionally building completely automated realtime performance metric reporting, eliminating a key source of pipeline fragmentation and redundancy.
- * Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationship, demonstrating an effective way to segment sub-populations in Mexico and the United Kingdom in an semi-unsupervised manner.
+ * Developed improved models for type 2 diabetes and Coronary Artery Disease by building and evaluating model stacking ensembles into production PRS pipelines, improving the sensitivity and specificity of 23andMe tests for tens of thousands of customers.
+ * Automated performance metric report generation for all polygenic risk score classifiers leveraging MLFlow artifact storage and headless Jupyter execution, reducing researcher time spent on analysis from days to minutes.
 
 #### [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html) • *Bioinformatician IV*
 ##### 05/2018 - 10/2018 (San Diego, CA)
