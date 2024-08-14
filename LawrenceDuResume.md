@@ -21,7 +21,7 @@ Python, C/C++, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://ro
 
 Experience
 --------------------
-#### [Freenome](https://www.linkedin.com/company/freenome/mycompany/) • *Senior Machine Learning Platform Engineer* 
+#### [Freenome](https://www.linkedin.com/company/freenome/mycompany/) • *Senior Machine Learning Research Engineer* 
 ##### 08/2022 - 06/2024 (South San Francisco, CA)
 
  * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data, enabling training of much larger models leveraging data distributed parallel (DDP) processing.
