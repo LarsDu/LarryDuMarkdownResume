@@ -27,7 +27,7 @@ Experience
  * Led greenfield project building end-to-end scalable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data, enabling training of much larger models leveraging data distributed parallel (DDP) processing speeding up model training by >10x.
  * Deployed and managed an organization-wide MLFlow based model tracking system using Terraform, Pulumi, and Google Cloud enabling live-monitoring of deep learning model training progress, instantaneous results sharing, and completely automated and reproducible report generation - reducing researcher manual effort by at least 5x.
  * Built scalable multitask learning, elastic net, and neural network based models in PyTorch with improved performance for classifying Colorectal Cancer risk from cell-free DNA data for a clinical trial cohort of >27,000 individuals.
- * Piloted a project to summarize biomedical literature using LLMs, first using GPT-4 and later by fine-tuning an open source LLM via RHLF/DPO (direct preference optimization), demonstrating the viability of using LLMs to parse unstructured biomedical records for scaling up feature extraction.
+ * Piloted a project to summarize biomedical literature using LLMs, first using GPT-4 and later by fine-tuning an open source LLM via DPO (direct preference optimization), demonstrating the viability of using LLMs to parse unstructured biomedical records for scaling up feature extraction.
 
 #### [23andMe](https://www.linkedin.com/company/23andme/mycompany/) • *Machine Learning Engineer* • *Data Scientist (prior to 2020)*
 ##### 11/2018 - 08/2022 (Sunnyvale, CA)

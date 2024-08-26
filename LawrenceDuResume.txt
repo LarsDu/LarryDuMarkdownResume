@@ -49,9 +49,9 @@ Freenome • Senior Machine Learning Research Engineer
     cohort of >27,000 individuals.
 -   Piloted a project to summarize biomedical literature using LLMs,
     first using GPT-4 and later by fine-tuning an open source LLM via
-    RHLF/DPO (direct preference optimization), demonstrating the
-    viability of using LLMs to parse unstructured biomedical records for
-    scaling up feature extraction.
+    DPO (direct preference optimization), demonstrating the viability of
+    using LLMs to parse unstructured biomedical records for scaling up
+    feature extraction.
 
 23andMe • Machine Learning Engineer • Data Scientist (prior to 2020)
 
