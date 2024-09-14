@@ -1,2 +1,5 @@
-# Only scan markdown for github-linguist stats
-*.md linguist-vendored
+# Don't scan generated code for stats
+*.docx linguist-vendored
+*.pdf linguist-vendored
+*.html linguist-vendored
+*.txt linguist-vendored
