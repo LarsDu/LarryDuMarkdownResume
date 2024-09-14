@@ -1,4 +1,5 @@
 # Don't scan generated code for stats
+*.md linguist-detectable
 *.docx linguist-vendored
 *.pdf linguist-vendored
 *.html linguist-vendored
