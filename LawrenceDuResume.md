@@ -10,7 +10,7 @@ Lawrence Du
 Skills
 --------------------
 #### Techniques
-Neural networks (Transformers, CNNs, GraphNN, Diffusion), Large Language Models (LLMs), Louvain/Leiden algorithm, SVMs, PCA, KNN, decision trees
+Neural networks (Transformers, CNNs, GraphNN, [Diffusion](https://github.com/LarsDu/DiffuMon)), Large Language Models (LLMs), Louvain/Leiden algorithm, SVMs, PCA, KNN, decision trees
 
 #### Tools
 PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes
@@ -70,4 +70,4 @@ Cornell University, 2006 - 2010
 
 Activities and interests
 ------------------------ 
-[DuBlog (https://dublog.net)](https://dublog.net) • [Developing the VR game Rogue Stargun (https://roguestargun.com)](https://roguestargun.com) • [Ludum Dare Game Jams](https://ldjam.com/users/larsdu/games) • [Blender3D](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9)
+[DuBlog (https://dublog.net)](https://dublog.net) • [Diffumon - Simple DDPM image generator](https://github.com/LarsDu/DiffuMon) • [Developing the VR game Rogue Stargun (https://roguestargun.com)](https://roguestargun.com) • [Ludum Dare Game Jams](https://ldjam.com/users/larsdu/games) • [Blender3D](https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9)
