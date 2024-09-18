@@ -13,7 +13,7 @@ Skills
 Neural networks (Transformers, CNNs, GraphNN, [Diffusion](https://github.com/LarsDu/DiffuMon)), Large Language Models (LLMs), SVMs, PCA, KNN, decision trees
 
 #### Tools
-PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes
+PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Unity3d, Godot
 
 #### Languages
 Python, C/C++, [Rust](https://github.com/LarsDu/StarRust), SQL, [C\#](https://roguestargun.com), Java, [Dart](https://github.com/LarsDu/simple_flutter_audio_recorder), Bash, [HTML/CSS](https://dublog.net), Some Mandarin and Spanish

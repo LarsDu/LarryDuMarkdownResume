@@ -18,7 +18,7 @@ Models (LLMs), SVMs, PCA, KNN, decision trees
 Tools
 
 PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google
-Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes
+Cloud, Terraform, Pulumi, Docker, Unity3d, Godot
 
 Languages
 
