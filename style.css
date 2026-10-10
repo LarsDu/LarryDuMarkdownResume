@@ -8,29 +8,29 @@
 
 @page {
     size: letter;
-    margin: 0.45in 0.5in;
+    margin: 0.4in 0.45in;
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    max-width: 7.5in;
+    max-width: 7.6in;
     margin: 24px auto;
     color: #202020;
     background: #FFFFFF;
     font-size: 9.5pt;
-    line-height: 1.17;
+    line-height: 1.15;
 }
 
 h1 {
     margin: 0 0 3pt;
     color: #214ca0;
-    font-size: 23pt;
+    font-size: 21pt;
     line-height: 1.1;
     text-align: center;
 }
 
 h2 {
-    margin: 7pt 0 3pt;
+    margin: 5pt 0 2pt;
     border-bottom: 1pt solid #214ca0;
     padding-bottom: 2pt;
     color: #214ca0;
@@ -39,34 +39,34 @@ h2 {
 }
 
 h4 {
-    margin: 5pt 0 1pt;
+    margin: 4pt 0 1pt;
     font-size: 9.5pt;
 }
 
 h5 {
-    margin: 0 0 2pt;
+    margin: 0 0 1pt;
     color: #555555;
     font-size: 8.75pt;
     font-weight: normal;
 }
 
 p {
-    margin: 0 0 2pt;
+    margin: 0 0 1pt;
 }
 
 blockquote {
-    margin: 0 0 4pt;
+    margin: 0 0 3pt;
     font-size: 9pt;
     text-align: center;
 }
 
 ul {
-    margin: 0 0 3pt;
+    margin: 0 0 2pt;
     padding-left: 13pt;
 }
 
 li {
-    margin: 0 0 2pt;
+    margin: 0 0 1.5pt;
     break-inside: avoid;
     page-break-inside: avoid;
 }

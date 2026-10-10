@@ -27,3 +27,9 @@ make all CHROME="/path/to/chrome"
 
 To check that the PDF fits one page, run `pdfinfo LawrenceDuResume.pdf` (requires
 Poppler) and confirm `Pages: 1`.
+
+To inspect the text available to resume parsers, run
+`pdftotext -layout LawrenceDuResume.pdf -` (also part of Poppler). Check that
+contact details, job titles, dates, and relevant skill keywords appear in the
+correct reading order. This checks text extraction; matching still depends on
+the employer's search terms and screening criteria.

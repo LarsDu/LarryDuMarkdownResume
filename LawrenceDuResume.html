@@ -32,7 +32,7 @@
 <body>
 <h1 id="lawrence-du-ph.d.">Lawrence Du, Ph.D.</h1>
 <blockquote>
-<p><strong>Machine Learning Engineering • ML Platforms •
+<p><strong>Machine Learning Engineering • Computational Biology •
 MLOps</strong></p>
 <p><a href="mailto:larrydu88@gmail.com">larrydu88@gmail.com</a> |
 626-808-7096 | Santa Clara, CA</p>
@@ -41,13 +41,16 @@ href="https://www.linkedin.com/in/larsdu">linkedin.com/in/LarsDu</a> |
 <a href="https://dublog.net">dublog.net</a></p>
 </blockquote>
 <h2 id="skills">Skills</h2>
-<p><strong>Languages:</strong> Python, SQL, C/C++, C#, Rust, Bash<br />
-<strong>ML &amp; data:</strong> PyTorch, TensorFlow, Ray, MLflow, NumPy,
-pandas, scikit-learn<br />
-<strong>Infrastructure:</strong> AWS, Google Cloud, Kubernetes, Docker,
-Terraform, Pulumi, Metaflow<br />
-<strong>Methods:</strong> Foundation model fine-tuning, transformers,
-diffusion, single-cell analysis, RAG, MCP, graph community detection</p>
+<p><strong>Languages:</strong> Python, SQL, C/C++, C#, Rust, Java, Dart,
+Bash, HTML/CSS, MATLAB<br />
+<strong>ML &amp; data:</strong> PyTorch, TensorFlow, scikit-learn
+(sklearn), NumPy, pandas, Numba, Ray, MLflow, Flask<br />
+<strong>Cloud/MLOps:</strong> Amazon Web Services (AWS), Google Cloud
+Platform (GCP), Kubernetes, Docker, Terraform, Pulumi, Metaflow<br />
+<strong>ML &amp; scientific computing:</strong> Foundation model
+fine-tuning, deep learning, transformers, convolutional neural networks
+(CNNs), graph neural networks (GNNs), diffusion, Louvain/Leiden
+community detection, SVM, PCA, KNN, decision trees</p>
 <h2 id="experience">Experience</h2>
 <h4 id="gsk-senior-aiml-engineer-sequence-learning-and-phenomics"><a
 href="https://www.gsk.com">GSK</a> • Senior AI/ML Engineer, Sequence
@@ -56,22 +59,25 @@ Learning and Phenomics</h4>
 South San Francisco, CA</h5>
 <ul>
 <li>Built a sequence foundation model fine-tuning platform for RNA
-property and single-cell perturbation prediction, cutting iteration time
-<strong>from weeks to less than a day</strong>.</li>
-<li>Integrated Segment Anything Model (SAM) segmentation into production
-image-embedding pipelines for single-cell tracking and cell-state world
-modeling across <strong>millions of images</strong>.</li>
+properties and single-cell RNA-seq perturbation prediction; cut
+iteration time <strong>from weeks to less than a day</strong>.</li>
+<li>Integrated Segment Anything Model (SAM) image segmentation into
+production computer vision and embedding pipelines for single-cell
+tracking and cell-state world modeling across <strong>millions of
+images</strong>.</li>
 <li>Designed embedding-based differentiation QC for <strong>&gt;3
-million iPSC-to-microglia cells</strong>, supporting Alzheimer’s disease
-research.</li>
-<li>Piloted x-prediction / JiT diffusion models generating protein
-subcellular localization images from ESM protein embeddings.</li>
-<li>Built a retrieval-augmented LLM pipeline prioritizing <strong>~1,000
-candidate genes</strong> for a lung-epithelium CRISPR knockout screen
-supporting a next-generation COPD drug program.</li>
-<li>Shipped MCP servers enabling company-wide LLM assistants to build
-and launch scientists’ image-analysis pipelines, accelerating analysis
-turnaround <strong>&gt;10×</strong>.</li>
+million iPSC-to-microglia cells</strong> in Alzheimer’s research.</li>
+<li>Piloted generative AI for protein subcellular localization images:
+x-prediction / JiT diffusion using ESM protein embeddings.</li>
+<li>Built a pipeline using large language models (LLMs) for
+retrieval-augmented generation (RAG) and gene-candidate evaluation;
+prioritized <strong>~1,000 genes</strong> for a lung-epithelium CRISPR
+knockout screen supporting a COPD drug program.</li>
+<li>Shipped Model Context Protocol (MCP) servers enabling company-wide
+LLM assistants to build and launch image-analysis pipelines; accelerated
+analysis turnaround <strong>&gt;10×</strong>.</li>
+<li>Conducted interviews for team hiring; contributing to LLM
+benchmarking currently in development.</li>
 </ul>
 <h4 id="freenome-senior-machine-learning-research-engineer"><a
 href="https://www.freenome.com">Freenome</a> • Senior Machine Learning
@@ -79,15 +85,19 @@ Research Engineer</h4>
 <h5 id="aug-2022-jun-2024-south-san-francisco-ca">Aug 2022 – Jun 2024 |
 South San Francisco, CA</h5>
 <ul>
-<li>Led development of a distributed ML platform for cancer detection
-using PyTorch, Ray, and Kubernetes; accelerated training
-<strong>&gt;10×</strong> with distributed data parallelism (DDP).</li>
-<li>Deployed organization-wide MLflow tracking on Google Cloud with
-Terraform and Pulumi; automated reproducible reporting and reduced
-researcher manual effort <strong>≥5×</strong>.</li>
-<li>Built multitask neural networks and elastic net models for
-colorectal cancer risk from cell-free DNA in a clinical trial cohort of
-<strong>&gt;27,000 individuals</strong>.</li>
+<li>Led greenfield distributed ML platform development with PyTorch,
+Ray, and Kubernetes for DNA methylation/protein cancer detection;
+accelerated model training <strong>&gt;10×</strong> with distributed
+data parallelism (DDP).</li>
+<li>Deployed organization-wide MLflow experiment tracking and automated
+reporting on GCP with Terraform/Pulumi; reduced manual research effort
+<strong>≥5×</strong>.</li>
+<li>Built PyTorch multitask neural networks and elastic net models for
+colorectal cancer risk from cell-free DNA in <strong>&gt;27,000 clinical
+trial participants</strong>.</li>
+<li>Piloted GPT-4 biomedical natural language processing (NLP) and
+fine-tuned an open-source LLM with direct preference optimization (DPO)
+for literature summarization and feature extraction.</li>
 </ul>
 <h4 id="andme-machine-learning-engineer-data-scientist"><a
 href="https://www.23andme.com">23andMe</a> • Machine Learning Engineer /
@@ -95,24 +105,23 @@ Data Scientist</h4>
 <h5 id="nov-2018-aug-2022-sunnyvale-ca-data-scientist-prior-to-2020">Nov
 2018 – Aug 2022 | Sunnyvale, CA | Data Scientist prior to 2020</h5>
 <ul>
-<li>Created and deployed Recent Ancestor Locations (RAL), a
-high-precision country-matching algorithm serving <strong>&gt;15 million
-customers</strong>; advanced graph community detection for genetic
-subpopulations in Mexico and the UK.</li>
-<li>Built SNP feature engineering pipelines at <strong>~10 million
-samples × ~1 million SNPs</strong> using AWS Batch, Metaflow, Glue, and
-Athena for genome-wide association studies and polygenic risk scores
-(PRS).</li>
-<li>Improved type 2 diabetes and coronary artery disease PRS models
-using stacking ensembles; automated classifier reports with MLflow and
-Jupyter, reducing analysis time <strong>from days to
-minutes</strong>.</li>
+<li>Deployed Recent Ancestor Locations (RAL) country matching for
+<strong>&gt;15 million customers</strong>; used identity-by-descent
+(IBD) graphs and community detection to identify genetic
+subpopulations.</li>
+<li>Built large-scale data pipelines for SNP feature engineering and ETL
+(<strong>~10 million samples × ~1 million SNPs</strong>) with AWS
+Batch/Glue/Athena and Metaflow; enabled genome-wide association studies
+(GWAS) and polygenic risk scores (PRS).</li>
+<li>Improved type 2 diabetes and coronary artery disease PRS with
+stacking ensembles; automated MLflow/Jupyter model evaluation, cutting
+analysis <strong>from days to minutes</strong>.</li>
 </ul>
-<h4 id="scripps-research-bioinformatician-iv-mayoct-2018"><a
+<h4 id="scripps-research-bioinformatician-iv-may-2018-oct-2018"><a
 href="https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html">Scripps
-Research</a> • Bioinformatician IV • May–Oct 2018</h4>
-<p>Developed an RNA-based transplant rejection classifier and Nanopore
-pipelines using Common Workflow Language.</p>
+Research</a> • Bioinformatician IV • May 2018 – Oct 2018</h4>
+<p>Built an RNA-based transplant rejection classifier and Nanopore
+bioinformatics pipelines with Common Workflow Language (CWL).</p>
 <h4 id="juno-diagnostics-independent-consultant-sep-2017-feb-2018"><a
 href="https://www.linkedin.com/company/juno-diagnostics/">Juno
 Diagnostics</a> • Independent Consultant • Sep 2017 – Feb 2018</h4>
@@ -120,18 +129,30 @@ Diagnostics</a> • Independent Consultant • Sep 2017 – Feb 2018</h4>
 <a
 href="https://patents.google.com/patent/US20210020314A1">US20210020314A1:
 Deep learning-based prenatal testing</a>.</p>
+<h4 id="insight-data-science-fellow-jan-2017-apr-2017"><a
+href="https://insightfellows.com/data-science">Insight</a> • Data
+Science Fellow • Jan 2017 – Apr 2017</h4>
+<p>Built <a
+href="https://github.com/LarsDu/DeepPixelMonster">DeepPixelMonster</a>,
+a TensorFlow generative adversarial network (GAN) for pixel art;
+deployed with Flask on AWS EC2.</p>
 <h2 id="education">Education</h2>
-<p><strong>Ph.D., Biology</strong> • UC San Diego • 2010–2017 • Rifkin
-Lab; <a href="https://github.com/LarsDu/DeepNuc">DeepNuc</a> CNN
-sequence classification<br />
+<p><strong>Ph.D., Biology</strong> • UC San Diego • 2010–2017 • Scott A.
+Rifkin Lab<br />
+Research: <a href="https://github.com/LarsDu/DeepNuc">DeepNuc</a> CNNs
+for <strong>&gt;500,000</strong> transcription start site and
+<strong>&gt;60,000</strong> microRNA target sequences; MATLAB image
+segmentation, fluorescence quantification, and deconvolution of RNA
+expression in <strong>&gt;5,000 embryos</strong>.<br />
 <strong>B.A., Biological Sciences</strong> • Cornell University •
 2006–2010 • Genetics and Development, <em>magna cum laude</em></p>
 <h2 id="selected-projects">Selected Projects</h2>
 <p><strong><a href="https://roguestargun.com">Rogue Stargun</a></strong>
-— Unity/C# VR space simulator; AI flight planning, procedural missions,
-text-to-speech; 72 FPS on Quest 2, 90 FPS on Quest 3.<br />
+— Unity/C# VR space simulator; behavior trees, AI flight planning,
+procedural missions, text-to-speech.<br />
 <strong><a
 href="https://github.com/LarsDu/DiffuMon">DiffuMon</a></strong> —
-Denoising diffusion probabilistic model (DDPM) image generator.</p>
+Open-source denoising diffusion probabilistic model (DDPM) image
+generator.</p>
 </body>
 </html>

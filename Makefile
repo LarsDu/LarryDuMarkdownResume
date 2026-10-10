@@ -17,8 +17,8 @@ $(BASENAME).pdf: $(BASENAME).html Makefile
 			"file://$(CURDIR)/$<"; \
 	elif command -v wkhtmltopdf >/dev/null 2>&1; then \
 		wkhtmltopdf --enable-local-file-access --print-media-type --page-size Letter \
-			--margin-top 11.43mm --margin-bottom 11.43mm \
-			--margin-left 12.7mm --margin-right 12.7mm $< $@; \
+			--margin-top 10.16mm --margin-bottom 10.16mm \
+			--margin-left 11.43mm --margin-right 11.43mm $< $@; \
 	else \
 		echo 'Install Google Chrome, Chromium, or wkhtmltopdf to build the PDF.' >&2; \
 		exit 1; \
