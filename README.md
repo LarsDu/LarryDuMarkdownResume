@@ -11,9 +11,19 @@ Here I [wrote my resume in markdown](https://github.com/LarsDu/LarryDuMarkdownRe
 #### Requires:
 
  * pandoc
- * wkhtmltopdf
+ * Google Chrome or Chromium (wkhtmltopdf is also supported as a fallback)
  
 ## Instructions:
-To rebuild simply first run `make clean` to wipe non-markdown files, then run `make all`
+Run `make all` to rebuild the HTML, PDF, DOCX, and plain-text resume. The PDF uses
+US Letter paper and the print layout in `style.css`. To rebuild every output from
+scratch, run `make clean` followed by `make all`.
 
+The Makefile detects Chrome/Chromium on Linux and Google Chrome in the standard
+macOS location. For another installation, set `CHROME` to the executable path:
 
+```sh
+make all CHROME="/path/to/chrome"
+```
+
+To check that the PDF fits one page, run `pdfinfo LawrenceDuResume.pdf` (requires
+Poppler) and confirm `Pages: 1`.

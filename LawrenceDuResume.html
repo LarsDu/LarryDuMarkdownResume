@@ -1,81 +1,137 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
+  <meta name="generator" content="pandoc 3.12" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>LawrenceDuResume</title>
+  <title>Lawrence Du Resume</title>
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<h1 id="lawrence-du">Lawrence Du</h1>
+<h1 id="lawrence-du-ph.d.">Lawrence Du, Ph.D.</h1>
 <blockquote>
-<p><strong>Machine Learning</strong></p>
-</blockquote>
-<blockquote>
-<p><img src="icons/png/mail.png" alt="mail" /><a href="mailto:larrydu88@gmail.com">larrydu88@gmail.com</a> | <img src="icons/png/whatsapp.png" alt="phone" />626-808-7096 | <img src="icons/png/github.png" alt="github" /><a href="https://github.com/LarsDu">github.com/LarsDu</a> | <img src="icons/png/linkedin.png" alt="linkedin" /><a href="https://linkedin.com/in/LarsDu">linkedin.com/in/LarsDu</a> | <img src="icons/png/blogger-alt.png" alt="dublog.net" /><a href="https://dublog.net">dublog.net</a></p>
-</blockquote>
-<blockquote>
-<h5 id="mckinley-dr-santa-clara-ca-95051">2911 McKinley Dr Santa Clara, CA 95051</h5>
+<p><strong>Machine Learning Engineering • ML Platforms •
+MLOps</strong></p>
+<p><a href="mailto:larrydu88@gmail.com">larrydu88@gmail.com</a> |
+626-808-7096 | Santa Clara, CA</p>
+<p><a href="https://github.com/LarsDu">github.com/LarsDu</a> | <a
+href="https://www.linkedin.com/in/larsdu">linkedin.com/in/LarsDu</a> |
+<a href="https://dublog.net">dublog.net</a></p>
 </blockquote>
 <h2 id="skills">Skills</h2>
-<h4 id="techniques">Techniques</h4>
-<p>Neural networks (Transformers, CNNs, GraphNN, <a href="https://github.com/LarsDu/DiffuMon">Diffusion</a>), Large Language Models (LLMs), Louvain/Leiden algorithm, SVMs, PCA, KNN, decision trees</p>
-<h4 id="tools">Tools</h4>
-<p>PyTorch, TensorFlow, Numpy, Numba, Pandas, Sklearn, Flask, AWS, Google Cloud, Terraform, Pulumi, Docker, Metaflow, Kubernetes</p>
-<h4 id="languages">Languages</h4>
-<p>Python, C/C++, <a href="https://github.com/LarsDu/StarRust">Rust</a>, SQL, <a href="https://roguestargun.com">C#</a>, Java, <a href="https://github.com/LarsDu/simple_flutter_audio_recorder">Dart</a>, Bash, <a href="https://dublog.net">HTML/CSS</a>, Some Mandarin and Spanish</p>
+<p><strong>Languages:</strong> Python, SQL, C/C++, C#, Rust, Bash<br />
+<strong>ML &amp; data:</strong> PyTorch, TensorFlow, Ray, MLflow, NumPy,
+pandas, scikit-learn<br />
+<strong>Infrastructure:</strong> AWS, Google Cloud, Kubernetes, Docker,
+Terraform, Pulumi, Metaflow<br />
+<strong>Methods:</strong> Foundation model fine-tuning, transformers,
+diffusion, single-cell analysis, RAG, MCP, graph community detection</p>
 <h2 id="experience">Experience</h2>
-<h4 id="freenome-senior-machine-learning-research-engineer"><a href="https://www.linkedin.com/company/freenome/mycompany/">Freenome</a> • <em>Senior Machine Learning Research Engineer</em></h4>
-<h5 id="south-san-francisco-ca">08/2022 - 06/2024 (South San Francisco, CA)</h5>
+<h4 id="gsk-senior-aiml-engineer-sequence-learning-and-phenomics"><a
+href="https://www.gsk.com">GSK</a> • Senior AI/ML Engineer, Sequence
+Learning and Phenomics</h4>
+<h5 id="oct-2024-present-south-san-francisco-ca">Oct 2024 – Present |
+South San Francisco, CA</h5>
 <ul>
-<li><p>Led greenfield project building end-to-end scaleable distributed machine learning platform using PyTorch, Ray, and Kubernetes for cancer detection from deep sequencing (methylated DNA) and protein data, enabling training of much larger models leveraging data distributed parallel (DDP) processing speeding up model training by &gt;10x.</p></li>
-<li><p>Deployed and managed an organization-wide MLFlow based model tracking system using Terraform, Pulumi, and Google Cloud enabling live-monitoring of deep learning model training progress, instantaneous results sharing, and completely automated and reproducible report generation - reducing researcher manual effort by at least 5x.</p></li>
-<li><p>Built scaleable multitask learning, elastic net, and neural network based models in PyTorch with improved performance for classifying Colorectal Cancer risk from cell-free DNA data for a clinical trial cohort of &gt;27,000 individuals.</p></li>
-<li><p>Piloted a project to summarize biomedical literature using LLMs, first using GPT-4 and later by fine-tuning an open source LLM via DPO (direct preference optimization), demonstrating the viability of using LLMs to parse unstructured biomedical records for scaling up feature extraction.</p></li>
+<li>Built a sequence foundation model fine-tuning platform for RNA
+property and single-cell perturbation prediction, cutting iteration time
+<strong>from weeks to less than a day</strong>.</li>
+<li>Integrated Segment Anything Model (SAM) segmentation into production
+image-embedding pipelines for single-cell tracking and cell-state world
+modeling across <strong>millions of images</strong>.</li>
+<li>Designed embedding-based differentiation QC for <strong>&gt;3
+million iPSC-to-microglia cells</strong>, supporting Alzheimer’s disease
+research.</li>
+<li>Piloted x-prediction / JiT diffusion models generating protein
+subcellular localization images from ESM protein embeddings.</li>
+<li>Built a retrieval-augmented LLM pipeline prioritizing <strong>~1,000
+candidate genes</strong> for a lung-epithelium CRISPR knockout screen
+supporting a next-generation COPD drug program.</li>
+<li>Shipped MCP servers enabling company-wide LLM assistants to build
+and launch scientists’ image-analysis pipelines, accelerating analysis
+turnaround <strong>&gt;10×</strong>.</li>
 </ul>
-<h4 id="andme-machine-learning-engineer-data-scientist-prior-to-2020"><a href="https://www.linkedin.com/company/23andme/mycompany/">23andMe</a> • <em>Machine Learning Engineer</em> • <em>Data Scientist (prior to 2020)</em></h4>
-<h5 id="sunnyvale-ca">11/2018 - 08/2022 (Sunnyvale, CA)</h5>
+<h4 id="freenome-senior-machine-learning-research-engineer"><a
+href="https://www.freenome.com">Freenome</a> • Senior Machine Learning
+Research Engineer</h4>
+<h5 id="aug-2022-jun-2024-south-san-francisco-ca">Aug 2022 – Jun 2024 |
+South San Francisco, CA</h5>
 <ul>
-<li><p>Created and deployed into production Recent Ancestor Locations (RAL) - a high precision, high recall country matching algorithm which serves &gt;15 million customers worldwide.</p></li>
-<li><p>Improved graph-based techniques for unsupervised identification of populations by genetically based identity-by-descent (IBD) family relationship, demonstrating an effective way to segment sub-populations (graph community detection) in Mexico and the United Kingdom in an semi-unsupervised manner.</p></li>
-<li><p>Built a large-scale feature engineering ETL pipeline for imputed SNPs (~10 million samples x ~1 million SNPs) using AWS Batch, Metaflow, AWS Glue, and AWS Athena enabling creation of higher quality GWAS and Polygenic Risk Score (PRS) ML models.</p></li>
-<li><p>Developed improved models for type 2 diabetes and Coronary Artery Disease by building and evaluating model stacking ensembles into production PRS pipelines, improving the sensitivity and specificity of 23andMe tests for tens of thousands of customers.</p></li>
-<li><p>Automated performance metric report generation for all polygenic risk score classifiers leveraging MLFlow artifact storage and headless Jupyter execution, reducing researcher time spent on analysis from days to minutes.</p></li>
+<li>Led development of a distributed ML platform for cancer detection
+using PyTorch, Ray, and Kubernetes; accelerated training
+<strong>&gt;10×</strong> with distributed data parallelism (DDP).</li>
+<li>Deployed organization-wide MLflow tracking on Google Cloud with
+Terraform and Pulumi; automated reproducible reporting and reduced
+researcher manual effort <strong>≥5×</strong>.</li>
+<li>Built multitask neural networks and elastic net models for
+colorectal cancer risk from cell-free DNA in a clinical trial cohort of
+<strong>&gt;27,000 individuals</strong>.</li>
 </ul>
-<h4 id="scripps-research-bioinformatician-iv"><a href="https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html">Scripps Research</a> • <em>Bioinformatician IV</em></h4>
-<h5 id="san-diego-ca">05/2018 - 10/2018 (San Diego, CA)</h5>
+<h4 id="andme-machine-learning-engineer-data-scientist"><a
+href="https://www.23andme.com">23andMe</a> • Machine Learning Engineer /
+Data Scientist</h4>
+<h5 id="nov-2018-aug-2022-sunnyvale-ca-data-scientist-prior-to-2020">Nov
+2018 – Aug 2022 | Sunnyvale, CA | Data Scientist prior to 2020</h5>
 <ul>
-<li>Developed a classifier for organ transplant rejection using RNA data and wrote pipelines for Nanopore long-read sequencers using Common Workflow Language.</li>
+<li>Created and deployed Recent Ancestor Locations (RAL), a
+high-precision country-matching algorithm serving <strong>&gt;15 million
+customers</strong>; advanced graph community detection for genetic
+subpopulations in Mexico and the UK.</li>
+<li>Built SNP feature engineering pipelines at <strong>~10 million
+samples × ~1 million SNPs</strong> using AWS Batch, Metaflow, Glue, and
+Athena for genome-wide association studies and polygenic risk scores
+(PRS).</li>
+<li>Improved type 2 diabetes and coronary artery disease PRS models
+using stacking ensembles; automated classifier reports with MLflow and
+Jupyter, reducing analysis time <strong>from days to
+minutes</strong>.</li>
 </ul>
-<h4 id="juno-diagnostics-independent-consultant"><a href="https://www.linkedin.com/company/juno-diagnostics/">Juno Diagnostics</a> • <em>Independent Consultant</em></h4>
-<h5 id="san-diego-ca-1">09/2017 - 02/2018 (San Diego, CA)</h5>
-<ul>
-<li>Developed patent – <a href="https://patents.google.com/patent/US20210020314A1">US20210020314A1 - Deep learning-based methods, devices, and systems for prenatal testing</a> along with a Tensorflow based classifier for detecting prenatal genetic abnormalities from high throughput sequencing data.</li>
-</ul>
-<h4 id="insight-data-science-fellow"><a href="https://insightfellows.com/data-science">Insight</a> • <em>Data Science Fellow</em></h4>
-<h5 id="remote">01/2017 - 04/2017 (Remote)</h5>
-<ul>
-<li>Built and deployed (as a Flask app on AWS EC2) <a href="https://github.com/LarsDu/DeepPixelMonster">DeepPixelMonster</a> - a Tensorflow based GAN for creating pixel art, back when GANs were still relatively state-of-the art.</li>
-</ul>
-<h4 id="uc-san-diego-phd-student-biology-scott-a.-rifkin-lab"><a href="https://www.linkedin.com/school/ucsandiego">UC San Diego</a> • <em>PhD Student Biology • <a href="http://labs.biology.ucsd.edu/rifkin/">Scott A. Rifkin Lab</a></em></h4>
-<h5 id="la-jolla-ca">08/2010 - 05/2017 (La Jolla, CA)</h5>
-<ul>
-<li><p>Wrote <a href="https://github.com/LarsDu/DeepNuc">DeepNuc</a> - a CNN model for classifying over 500,000 transcriptional start site (TSS) flanking sequences from humans, mice, fruit flies, and nematodes as well as for over 60,000 microRNA target sequences.</p></li>
-<li><p>Researched the role of RNA expression noise during animal development by imaging single molecule RNA expression data in &gt;5,000 embryos and analyzing data using self-written MATLAB tools for image segmentation, fluorescence quantification, and image deconvolution.</p></li>
-</ul>
+<h4 id="scripps-research-bioinformatician-iv-mayoct-2018"><a
+href="https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html">Scripps
+Research</a> • Bioinformatician IV • May–Oct 2018</h4>
+<p>Developed an RNA-based transplant rejection classifier and Nanopore
+pipelines using Common Workflow Language.</p>
+<h4 id="juno-diagnostics-independent-consultant-sep-2017-feb-2018"><a
+href="https://www.linkedin.com/company/juno-diagnostics/">Juno
+Diagnostics</a> • Independent Consultant • Sep 2017 – Feb 2018</h4>
+<p>Developed a TensorFlow prenatal screening classifier and co-invented
+<a
+href="https://patents.google.com/patent/US20210020314A1">US20210020314A1:
+Deep learning-based prenatal testing</a>.</p>
 <h2 id="education">Education</h2>
-<p><strong>Ph.D Biology</strong> UC San Diego, 2010 - 2017</p>
-<p><strong>B.A. Biological Sciences</strong> <em>Genetics and Development, Magna Cum Laude</em> Cornell University, 2006 - 2010</p>
-<h2 id="activities-and-interests">Activities and interests</h2>
-<p><a href="https://dublog.net">DuBlog (https://dublog.net)</a> • <a href="https://github.com/LarsDu/DiffuMon">Diffumon - Simple DDPM image generator</a> • <a href="https://roguestargun.com">Developing the VR game Rogue Stargun (https://roguestargun.com)</a> • <a href="https://ldjam.com/users/larsdu/games">Ludum Dare Game Jams</a> • <a href="https://sketchfab.com/3d-models/walken-23f4b6f0dcea4bf3afe714a59a9473e9">Blender3D</a></p>
+<p><strong>Ph.D., Biology</strong> • UC San Diego • 2010–2017 • Rifkin
+Lab; <a href="https://github.com/LarsDu/DeepNuc">DeepNuc</a> CNN
+sequence classification<br />
+<strong>B.A., Biological Sciences</strong> • Cornell University •
+2006–2010 • Genetics and Development, <em>magna cum laude</em></p>
+<h2 id="selected-projects">Selected Projects</h2>
+<p><strong><a href="https://roguestargun.com">Rogue Stargun</a></strong>
+— Unity/C# VR space simulator; AI flight planning, procedural missions,
+text-to-speech; 72 FPS on Quest 2, 90 FPS on Quest 3.<br />
+<strong><a
+href="https://github.com/LarsDu/DiffuMon">DiffuMon</a></strong> —
+Denoising diffusion probabilistic model (DDPM) image generator.</p>
 </body>
 </html>
