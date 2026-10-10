@@ -6,88 +6,117 @@
  * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
  */
 
-@page {
-    size: letter;
-    margin: 0.4in 0.45in;
-}
-
+/* Whole document */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    max-width: 7.6in;
-    margin: 24px auto;
-    color: #202020;
+    width: 800px;
+    margin: auto;
     background: #FFFFFF;
-    font-size: 9.5pt;
-    line-height: 1.15;
+    padding: 9px 9px 9px 9px;
+    font-size: 12px;
 }
 
+/* Title of the resume */
 h1 {
-    margin: 0 0 3pt;
-    color: #214ca0;
-    font-size: 21pt;
-    line-height: 1.1;
-    text-align: center;
+    font-size: 40px;
+    color: #446fff;
+    text-align:center;
+    margin-top: 4px;
+    margin-bottom:8px;
+}
+h1:hover {
+    color: #094fff;
+    text-shadow: 1px 1px 1px #333;
 }
 
+/* Titles of categories */
 h2 {
-    margin: 5pt 0 2pt;
-    border-bottom: 1pt solid #214ca0;
-    padding-bottom: 2pt;
-    color: #214ca0;
-    font-size: 12pt;
-    line-height: 1.1;
+    color: #000000;
+    margin-bottom:3px;
+}
+h2:hover {
+    color: #094fff;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 10%;
+    height: 10px;
+    background-color: #0936ff;
+}
+h3 {
+    color: #000000;
+    margin-bottom: 3px;
 }
 
 h4 {
-    margin: 4pt 0 1pt;
-    font-size: 9.5pt;
+    margin-bottom: 3px;
 }
 
-h5 {
-    margin: 0 0 1pt;
-    color: #555555;
-    font-size: 8.75pt;
-    font-weight: normal;
+h5{
+    color: #989898;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    padding: 0px;
 }
 
+/* Definitions */
+dl{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    margin-bottom: 25px; /*Space out these sections*/
+    /*font-weight: bold;*/
+}
+dd {
+    margin-left: 20%;
+}
 p {
-    margin: 0 0 1pt;
+    margin-top:1px;
+    margin-bottom:3px;
 }
 
+/* Blockquotes */
 blockquote {
-    margin: 0 0 3pt;
-    font-size: 9pt;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 3px;
     text-align: center;
 }
 
-ul {
-    margin: 0 0 2pt;
-    padding-left: 13pt;
+ul{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+    padding-left: 4px;
 }
 
-li {
-    margin: 0 0 1.5pt;
-    break-inside: avoid;
-    page-break-inside: avoid;
+li{
+    margin-top: 2px;
+    margin-bottom: 1px;
 }
 
-li p {
-    margin: 0;
-}
-
-h1, h2, h4, h5 {
-    break-after: avoid;
-    page-break-after: avoid;
-}
-
+/* Links */
 a {
-    color: #183f84;
     text-decoration: none;
+    color: #001488;
+}
+a:hover, a:active {
+    background-color: #0084ff;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
 }
 
-@media print {
-    body {
-        max-width: none;
-        margin: 0;
-    }
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
 }

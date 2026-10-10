@@ -7,60 +7,122 @@ Lawrence Du, Ph.D.
 >
 > [github.com/LarsDu](https://github.com/LarsDu) | [linkedin.com/in/LarsDu](https://www.linkedin.com/in/larsdu) | [dublog.net](https://dublog.net)
 
+Machine learning engineer and biology Ph.D. with experience building scientific AI systems, distributed training platforms, and production models. Work spans sequence foundation models, computer vision, LLM applications, genomics, and experimental molecular biology.
+
 Skills
 --------------------
-**Languages:** Python, SQL, C/C++, C#, Rust, Java, Dart, Bash, HTML/CSS, MATLAB\
-**ML & data:** PyTorch, TensorFlow, scikit-learn (sklearn), NumPy, pandas, Numba, Ray, MLflow, Flask\
-**Cloud/MLOps:** Amazon Web Services (AWS), Google Cloud Platform (GCP), Kubernetes, Docker, Terraform, Pulumi, Metaflow\
-**ML & scientific computing:** Foundation model fine-tuning, deep learning, transformers, convolutional neural networks (CNNs), graph neural networks (GNNs), diffusion, Louvain/Leiden community detection, SVM, PCA, KNN, decision trees
+#### Languages
+Python, SQL, C/C++, C#, Rust, Java, Dart, Bash, HTML/CSS, MATLAB
+
+#### ML and data tools
+PyTorch, TensorFlow, JAX, scikit-learn (sklearn), NumPy, SciPy, pandas, Numba, Ray, MLflow, Flask, Jupyter
+
+#### Cloud and MLOps
+Amazon Web Services (AWS: EC2, S3, Batch, Glue, Athena, Fargate), Google Cloud Platform (GCP), Kubernetes, Docker, Terraform, Pulumi, Metaflow, Jenkins, Linux
+
+#### ML and scientific computing
+Foundation model fine-tuning, deep learning, transformers, convolutional neural networks (CNNs), graph neural networks (GNNs), generative adversarial networks (GANs), diffusion, Louvain/Leiden community detection, SVM, PCA, KNN, decision trees, cross-validation
 
 Experience
 --------------------
-#### [GSK](https://www.gsk.com) • Senior AI/ML Engineer, Sequence Learning and Phenomics
+### [GSK](https://www.gsk.com) • Senior AI/ML Engineer, Sequence Learning and Phenomics
 ##### Oct 2024 – Present | South San Francisco, CA
 
-* Built a sequence foundation model fine-tuning platform for RNA properties and single-cell RNA-seq perturbation prediction; cut iteration time **from weeks to less than a day**.
-* Integrated Segment Anything Model (SAM) image segmentation into production computer vision and embedding pipelines for single-cell tracking and cell-state world modeling across **millions of images**.
-* Designed embedding-based differentiation QC for **>3 million iPSC-to-microglia cells** in Alzheimer's research.
-* Piloted generative AI for protein subcellular localization images: x-prediction / JiT diffusion using ESM protein embeddings.
-* Built a pipeline using large language models (LLMs) for retrieval-augmented generation (RAG) and gene-candidate evaluation; prioritized **~1,000 genes** for a lung-epithelium CRISPR knockout screen supporting a COPD drug program.
-* Shipped Model Context Protocol (MCP) servers enabling company-wide LLM assistants to build and launch image-analysis pipelines; accelerated analysis turnaround **>10×**.
-* Conducted interviews for team hiring; contributing to LLM benchmarking currently in development.
+* Built an end-to-end fine-tuning platform for sequence foundation models, enabling internal teams to predict RNA properties from nucleotide sequences and perturbation responses from single-cell RNA-seq. Cut iteration time **from weeks to less than a day**.
 
-#### [Freenome](https://www.freenome.com) • Senior Machine Learning Research Engineer
+* Integrated Segment Anything Model (SAM) image segmentation into production computer vision and image-embedding pipelines, enabling single-cell tracking and cell-state world modeling across **millions of images**.
+
+* Designed embedding-based differentiation quality control (QC) that scored **>3 million iPSC-to-microglia cells**, supporting active Alzheimer's disease research.
+
+* Piloted generative AI using x-prediction / JiT diffusion models to generate protein subcellular localization images conditioned on ESM protein embeddings.
+
+* Built a pipeline using large language models (LLMs) for retrieval-augmented generation (RAG) and gene-candidate evaluation. Prioritized **~1,000 candidate genes** for a lung-epithelium CRISPR knockout screen supporting a next-generation COPD drug program.
+
+* Shipped Model Context Protocol (MCP) servers that let company-wide LLM assistants build and launch scientists' image-analysis pipelines, making internal AI Science tools agent-callable and accelerating analysis turnaround **>10×**.
+
+* Contributing to LLM benchmarking currently in development; conducted interviews to support hiring on the team.
+
+### [Freenome](https://www.freenome.com) • Senior Machine Learning Research Engineer
 ##### Aug 2022 – Jun 2024 | South San Francisco, CA
 
-* Led greenfield distributed ML platform development with PyTorch, Ray, and Kubernetes for DNA methylation/protein cancer detection; accelerated model training **>10×** with distributed data parallelism (DDP).
-* Deployed organization-wide MLflow experiment tracking and automated reporting on GCP with Terraform/Pulumi; reduced manual research effort **≥5×**.
-* Built PyTorch multitask neural networks and elastic net models for colorectal cancer risk from cell-free DNA in **>27,000 clinical trial participants**.
-* Piloted GPT-4 biomedical natural language processing (NLP) and fine-tuned an open-source LLM with direct preference optimization (DPO) for literature summarization and feature extraction.
+* Led a greenfield distributed ML platform project using PyTorch, Ray, and Kubernetes for cancer detection from methylated DNA and protein data. Enabled larger models and accelerated model training **>10×** using distributed data parallelism (DDP).
 
-#### [23andMe](https://www.23andme.com) • Machine Learning Engineer / Data Scientist
-##### Nov 2018 – Aug 2022 | Sunnyvale, CA | Data Scientist prior to 2020
+* Deployed organization-wide MLflow experiment tracking on GCP using Terraform and Pulumi. Enabled live training monitoring, results sharing, and automated reproducible reports, reducing manual researcher effort **≥5×**.
 
-* Deployed Recent Ancestor Locations (RAL) country matching for **>15 million customers**; used identity-by-descent (IBD) graphs and community detection to identify genetic subpopulations.
-* Built large-scale data pipelines for SNP feature engineering and ETL (**~10 million samples × ~1 million SNPs**) with AWS Batch/Glue/Athena and Metaflow; enabled genome-wide association studies (GWAS) and polygenic risk scores (PRS).
-* Improved type 2 diabetes and coronary artery disease PRS with stacking ensembles; automated MLflow/Jupyter model evaluation, cutting analysis **from days to minutes**.
+* Built scalable multitask neural networks and elastic net models in PyTorch for colorectal cancer risk from cell-free DNA, supporting a clinical trial cohort of **>27,000 individuals**.
 
-#### [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html) • Bioinformatician IV • May 2018 – Oct 2018
+* Piloted biomedical natural language processing (NLP) with GPT-4 and an open-source LLM fine-tuned using direct preference optimization (DPO). Demonstrated literature summarization and feature extraction from unstructured biomedical records.
 
-Built an RNA-based transplant rejection classifier and Nanopore bioinformatics pipelines with Common Workflow Language (CWL).
+### [23andMe](https://www.23andme.com) • Machine Learning Engineer
+##### Apr 2020 – Aug 2022 | Sunnyvale, CA
 
-#### [Juno Diagnostics](https://www.linkedin.com/company/juno-diagnostics/) • Independent Consultant • Sep 2017 – Feb 2018
+* Built large-scale data pipelines for quality statistics and feature engineering of genotyped and imputed single-nucleotide polymorphisms (SNPs). Implemented extract, transform, load (ETL) workflows for **~10 million samples × ~1 million SNPs** using AWS Batch, Metaflow, and Glue, populating an Athena feature datastore for genome-wide association studies (GWAS) and polygenic risk scores (PRS).
 
-Developed a TensorFlow prenatal screening classifier and co-invented [US20210020314A1: Deep learning-based prenatal testing](https://patents.google.com/patent/US20210020314A1).
+* Improved type 2 diabetes and coronary artery disease PRS models through stacking ensembles in production pipelines. Improved sensitivity and specificity for **tens of thousands of customers**, evaluating models using area under the ROC curve (AUC) and precision-recall curve (auPRC) metrics.
 
-#### [Insight](https://insightfellows.com/data-science) • Data Science Fellow • Jan 2017 – Apr 2017
+* Automated model evaluation and classifier reports with MLflow artifact storage and headless Jupyter execution, reducing researcher analysis time **from days to minutes**.
 
-Built [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster), a TensorFlow generative adversarial network (GAN) for pixel art; deployed with Flask on AWS EC2.
+### 23andMe • Data Scientist, Ancestry Product
+##### Nov 2018 – Apr 2020 | Sunnyvale, CA
+
+* Created and deployed Recent Ancestor Locations (RAL), a high-precision, high-recall country-matching algorithm serving **>15 million customers** worldwide. Deployed the model as an AWS Fargate microservice with MLflow artifact tracking.
+
+* Improved graph-based techniques for identifying genetic populations from identity-by-descent (IBD) family relationships. Used graph community detection to identify subpopulations in Mexico and the United Kingdom.
+
+### [Scripps Research](https://www.scripps.edu/science-and-medicine/cores-and-services/bioinformatics-core/index.html) • Bioinformatician IV
+##### May 2018 – Oct 2018 | San Diego, CA
+
+* Developed an organ transplant rejection classifier from RNA sequencing data for a research grant.
+
+* Built automated Oxford Nanopore long-read bioinformatics pipelines in Common Workflow Language (CWL) for real-time microbial diagnostics, *de novo* genome assembly, and variant calling.
+
+### [Juno Diagnostics](https://www.linkedin.com/company/juno-diagnostics/) • Independent Consultant
+##### Sep 2017 – Feb 2018 | San Diego, CA
+
+* Developed a TensorFlow deep learning software package for detecting prenatal genetic abnormalities from high-throughput sequencing data; co-invented a patent for deep learning-based prenatal testing.
+
+* Created a genetic-abnormality simulator derived from statistical analysis of human high-throughput sequencing data.
+
+### [Insight](https://insightfellows.com/data-science) • Data Science Fellow
+##### Jan 2017 – Apr 2017 | Remote / San Diego, CA
+
+* Built [DeepPixelMonster](https://github.com/LarsDu/DeepPixelMonster), a TensorFlow deep convolutional generative adversarial network (DCGAN) for pixel art, and deployed it as an interactive Flask application on AWS EC2.
+
+### UC San Diego • Ph.D. Researcher, Biology • Scott A. Rifkin Lab
+##### Aug 2010 – May 2017 | La Jolla, CA
+
+* Built [DeepNuc](https://github.com/LarsDu/DeepNuc), a CNN for classifying **>500,000** transcription start site (TSS) flanking sequences from humans, mice, fruit flies, and nematodes, plus **>60,000** microRNA target sequences from publicly available CLEAR-CLIP data.
+
+* Studied developmental RNA expression noise in **>5,000 embryos** using single-molecule imaging and custom MATLAB tools for image segmentation, fluorescence quantification, and deconvolution.
+
+* Generated **>70 transgenic nematode and Drosophila strains** using Gibson assembly, CRISPR/Cas9, MosSCI, and PhiC31 integrase.
 
 Education
 ---------
-**Ph.D., Biology** • UC San Diego • 2010–2017 • Scott A. Rifkin Lab\
-Research: [DeepNuc](https://github.com/LarsDu/DeepNuc) CNNs for **>500,000** transcription start site and **>60,000** microRNA target sequences; MATLAB image segmentation, fluorescence quantification, and deconvolution of RNA expression in **>5,000 embryos**.\
-**B.A., Biological Sciences** • Cornell University • 2006–2010 • Genetics and Development, *magna cum laude*
+#### Ph.D., Biology • UC San Diego
+2010–2017 • Scott A. Rifkin Lab
+
+#### B.A., Biological Sciences • Cornell University
+2006–2010 • Genetics and Development • *magna cum laude*
+
+Selected Publication and Patent
+--------------------
+**Du et al. (2016).** [Mutagenesis of GATA motifs controlling the endoderm regulator elt-2 reveals distinct dominant and secondary cis-regulatory elements](https://doi.org/10.1016/j.ydbio.2016.02.013). *Developmental Biology*, 412(1), 160–170.
+
+**Co-inventor:** [US20210020314A1: Deep learning-based prenatal testing](https://patents.google.com/patent/US20210020314A1).
 
 Selected Projects
 --------------------
-**[Rogue Stargun](https://roguestargun.com)** — Unity/C# VR space simulator; behavior trees, AI flight planning, procedural missions, text-to-speech.\
-**[DiffuMon](https://github.com/LarsDu/DiffuMon)** — Open-source denoising diffusion probabilistic model (DDPM) image generator.
+#### [Rogue Stargun](https://roguestargun.com) • Unity / C# VR space simulator
+
+* Built spaceship controllers, collision avoidance and firing prediction algorithms, and behavior trees for AI flight planning and decision making.
+
+* Integrated text-to-speech services from Google Cloud, Microsoft Azure, and ElevenLabs into the Unity editor to prototype campaign dialogue; built procedural mission and powerup generation.
+
+* Optimized shaders and rendering/batch calls for constrained VR hardware, achieving **72 FPS on Meta Quest 2 and 90 FPS on Meta Quest 3**.
+
+#### [DiffuMon](https://github.com/LarsDu/DiffuMon) • Open-source image generation
+
+* Implemented denoising diffusion probabilistic models (DDPM) in PyTorch as an educational paper reproduction, with denoising diffusion implicit model (DDIM) sampling support.
+
+* Provided pretrained Fashion MNIST and Pokémon image models, training and sampling commands, configurable datasets, and example notebooks. Designed the implementation to train on a commodity GPU.
