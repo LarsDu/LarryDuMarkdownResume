@@ -32,33 +32,28 @@
 <body>
 <h1 id="lawrence-du-ph.d.">Lawrence Du, Ph.D.</h1>
 <blockquote>
-<p><strong>Machine Learning Engineering • Computational Biology •
-MLOps</strong></p>
+<p><strong>Machine Learning • Biology • MLOps</strong></p>
 <p><a href="mailto:larrydu88@gmail.com">larrydu88@gmail.com</a> |
 626-808-7096 | Santa Clara, CA</p>
 <p><a href="https://github.com/LarsDu">github.com/LarsDu</a> | <a
-href="https://www.linkedin.com/in/larsdu">linkedin.com/in/LarsDu</a> |
-<a href="https://dublog.net">dublog.net</a></p>
+href="https://www.linkedin.com/in/larsdu">linkedin.com/in/LarsDu</a></p>
 </blockquote>
-<p>Machine learning engineer and biology Ph.D. with experience building
-scientific AI systems, distributed training platforms, and production
-models. Work spans sequence foundation models, computer vision, LLM
-applications, genomics, and experimental molecular biology.</p>
 <h2 id="skills">Skills</h2>
 <h4 id="languages">Languages</h4>
 <p>Python, SQL, C/C++, C#, Rust, Java, Dart, Bash, HTML/CSS, MATLAB</p>
 <h4 id="ml-and-data-tools">ML and data tools</h4>
-<p>PyTorch, TensorFlow, JAX, scikit-learn (sklearn), NumPy, SciPy,
-pandas, Numba, Ray, MLflow, Flask, Jupyter</p>
+<p>PyTorch, TensorFlow, scikit-learn (sklearn), NumPy, SciPy, pandas,
+Numba, Ray, MLflow, Flask, Jupyter</p>
 <h4 id="cloud-and-mlops">Cloud and MLOps</h4>
 <p>Amazon Web Services (AWS: EC2, S3, Batch, Glue, Athena, Fargate),
 Google Cloud Platform (GCP), Kubernetes, Docker, Terraform, Pulumi,
-Metaflow, Jenkins, Linux</p>
+Metaflow, GitHub Actions, Jenkins, Linux</p>
 <h4 id="ml-and-scientific-computing">ML and scientific computing</h4>
-<p>Foundation model fine-tuning, deep learning, transformers,
-convolutional neural networks (CNNs), graph neural networks (GNNs),
-generative adversarial networks (GANs), diffusion, Louvain/Leiden
-community detection, SVM, PCA, KNN, decision trees, cross-validation</p>
+<p>Low-rank adaptation (LoRA), sparse autoencoders (SAE), Joint
+Embedding Predictive Architecture (JEPA), foundation model fine-tuning,
+deep learning, transformers, convolutional neural networks (CNNs), graph
+neural networks (GNNs), GANs, diffusion, Louvain/Leiden community
+detection, SVM, PCA, KNN, decision trees, cross-validation</p>
 <h2 id="experience">Experience</h2>
 <h3 id="gsk-senior-aiml-engineer-sequence-learning-and-phenomics"><a
 href="https://www.gsk.com">GSK</a> • Senior AI/ML Engineer, Sequence
@@ -69,29 +64,35 @@ South San Francisco, CA</h5>
 <li><p>Built an end-to-end fine-tuning platform for sequence foundation
 models, enabling internal teams to predict RNA properties from
 nucleotide sequences and perturbation responses from single-cell
-RNA-seq. Cut iteration time <strong>from weeks to less than a
+RNA-seq.</p>
+<p>Cut iteration time <strong>from weeks to less than a
 day</strong>.</p></li>
-<li><p>Integrated Segment Anything Model (SAM) image segmentation into
-production computer vision and image-embedding pipelines, enabling
-single-cell tracking and cell-state world modeling across
-<strong>millions of images</strong>.</p></li>
-<li><p>Designed embedding-based differentiation quality control (QC)
-that scored <strong>&gt;3 million iPSC-to-microglia cells</strong>,
-supporting active Alzheimer’s disease research.</p></li>
+<li><p>Integrated Cellpose-SAM, combining Cellpose and the Segment
+Anything Model (SAM), into production computer vision and
+image-embedding pipelines for image segmentation, enabling single-cell
+tracking and cell-state world modeling across <strong>millions of
+images</strong>.</p></li>
+<li><p>Built a zero-shot image-embedding model to predict
+iPSC-to-microglia differentiation success, scoring <strong>&gt;3 million
+cells</strong> for active Alzheimer’s disease research and saving
+<strong>up to six weeks of labor</strong> on two-month differentiation
+protocols.</p>
+<p>Used sparse autoencoders to extract interpretable features.</p></li>
 <li><p>Piloted generative AI using x-prediction / JiT diffusion models
 to generate protein subcellular localization images conditioned on ESM
 protein embeddings.</p></li>
 <li><p>Built a pipeline using large language models (LLMs) for
-retrieval-augmented generation (RAG) and gene-candidate evaluation.
-Prioritized <strong>~1,000 candidate genes</strong> for a
+retrieval-augmented generation (RAG) and gene-candidate evaluation.</p>
+<p>Prioritized <strong>~1,000 candidate genes</strong> for a
 lung-epithelium CRISPR knockout screen supporting a next-generation COPD
 drug program.</p></li>
 <li><p>Shipped Model Context Protocol (MCP) servers that let
 company-wide LLM assistants build and launch scientists’ image-analysis
 pipelines, making internal AI Science tools agent-callable and
 accelerating analysis turnaround <strong>&gt;10×</strong>.</p></li>
-<li><p>Contributing to LLM benchmarking currently in development;
-conducted interviews to support hiring on the team.</p></li>
+<li><p>Contributing to benchmarking tasks for open-weight and commercial
+LLMs (currently in development); led software engineering interviews to
+support hiring on the team.</p></li>
 </ul>
 <h3 id="freenome-senior-machine-learning-research-engineer"><a
 href="https://www.freenome.com">Freenome</a> • Senior Machine Learning
@@ -101,21 +102,19 @@ South San Francisco, CA</h5>
 <ul>
 <li><p>Led a greenfield distributed ML platform project using PyTorch,
 Ray, and Kubernetes for cancer detection from methylated DNA and protein
-data. Enabled larger models and accelerated model training
+data.</p>
+<p>Enabled larger models and accelerated model training
 <strong>&gt;10×</strong> using distributed data parallelism
 (DDP).</p></li>
 <li><p>Deployed organization-wide MLflow experiment tracking on GCP
-using Terraform and Pulumi. Enabled live training monitoring, results
-sharing, and automated reproducible reports, reducing manual researcher
-effort <strong>≥5×</strong>.</p></li>
+using Terraform and Pulumi.</p>
+<p>Enabled live training monitoring, results sharing, and automated
+reproducible reports, reducing manual researcher effort
+<strong>≥5×</strong>.</p></li>
 <li><p>Built scalable multitask neural networks and elastic net models
 in PyTorch for colorectal cancer risk from cell-free DNA, supporting a
 clinical trial cohort of <strong>&gt;27,000
 individuals</strong>.</p></li>
-<li><p>Piloted biomedical natural language processing (NLP) with GPT-4
-and an open-source LLM fine-tuned using direct preference optimization
-(DPO). Demonstrated literature summarization and feature extraction from
-unstructured biomedical records.</p></li>
 </ul>
 <h3 id="andme-machine-learning-engineer"><a
 href="https://www.23andme.com">23andMe</a> • Machine Learning
@@ -125,16 +124,15 @@ CA</h5>
 <ul>
 <li><p>Built large-scale data pipelines for quality statistics and
 feature engineering of genotyped and imputed single-nucleotide
-polymorphisms (SNPs). Implemented extract, transform, load (ETL)
-workflows for <strong>~10 million samples × ~1 million SNPs</strong>
-using AWS Batch, Metaflow, and Glue, populating an Athena feature
-datastore for genome-wide association studies (GWAS) and polygenic risk
-scores (PRS).</p></li>
+polymorphisms (SNPs).</p>
+<p>Implemented extract, transform, load (ETL) workflows for <strong>~10
+million samples × ~1 million SNPs</strong> using AWS Batch, Metaflow,
+and Glue, populating an Athena feature datastore for genome-wide
+association studies (GWAS) and polygenic risk scores (PRS).</p></li>
 <li><p>Improved type 2 diabetes and coronary artery disease PRS models
-through stacking ensembles in production pipelines. Improved sensitivity
-and specificity for <strong>tens of thousands of customers</strong>,
-evaluating models using area under the ROC curve (AUC) and
-precision-recall curve (auPRC) metrics.</p></li>
+through stacking ensembles in production pipelines, improving
+sensitivity and specificity for <strong>&gt;400,000 customers</strong>.
+Evaluated performance using AUC and auPRC.</p></li>
 <li><p>Automated model evaluation and classifier reports with MLflow
 artifact storage and headless Jupyter execution, reducing researcher
 analysis time <strong>from days to minutes</strong>.</p></li>
@@ -147,7 +145,8 @@ CA</h5>
 <li><p>Created and deployed Recent Ancestor Locations (RAL), a
 high-precision, high-recall country-matching algorithm serving
 <strong>&gt;15 million customers</strong> worldwide. Deployed the model
-as an AWS Fargate microservice with MLflow artifact tracking.</p></li>
+as an AWS Fargate microservice, using MLflow for experiment tracking and
+a model repository.</p></li>
 <li><p>Improved graph-based techniques for identifying genetic
 populations from identity-by-descent (IBD) family relationships. Used
 graph community detection to identify subpopulations in Mexico and the
@@ -174,8 +173,9 @@ CA</h5>
 <ul>
 <li><p>Developed a TensorFlow deep learning software package for
 detecting prenatal genetic abnormalities from high-throughput sequencing
-data; co-invented a patent for deep learning-based prenatal
-testing.</p></li>
+data; co-invented <a
+href="https://patents.google.com/patent/US20210020314A1">US20210020314A1:
+Deep learning-based prenatal testing</a>.</p></li>
 <li><p>Created a genetic-abnormality simulator derived from statistical
 analysis of human high-throughput sequencing data.</p></li>
 </ul>
@@ -215,42 +215,36 @@ integrase.</p></li>
 <h4 id="b.a.-biological-sciences-cornell-university">B.A., Biological
 Sciences • Cornell University</h4>
 <p>2006–2010 • Genetics and Development • <em>magna cum laude</em></p>
-<h2 id="selected-publication-and-patent">Selected Publication and
-Patent</h2>
-<p><strong>Du et al. (2016).</strong> <a
-href="https://doi.org/10.1016/j.ydbio.2016.02.013">Mutagenesis of GATA
-motifs controlling the endoderm regulator elt-2 reveals distinct
-dominant and secondary cis-regulatory elements</a>. <em>Developmental
-Biology</em>, 412(1), 160–170.</p>
-<p><strong>Co-inventor:</strong> <a
-href="https://patents.google.com/patent/US20210020314A1">US20210020314A1:
-Deep learning-based prenatal testing</a>.</p>
-<h2 id="selected-projects">Selected Projects</h2>
-<h4 id="rogue-stargun-unity-c-vr-space-simulator"><a
-href="https://roguestargun.com">Rogue Stargun</a> • Unity / C# VR space
-simulator</h4>
+<h2 id="side-projects">Side Projects</h2>
 <ul>
-<li><p>Built spaceship controllers, collision avoidance and firing
-prediction algorithms, and behavior trees for AI flight planning and
-decision making.</p></li>
-<li><p>Integrated text-to-speech services from Google Cloud, Microsoft
-Azure, and ElevenLabs into the Unity editor to prototype campaign
-dialogue; built procedural mission and powerup generation.</p></li>
-<li><p>Optimized shaders and rendering/batch calls for constrained VR
-hardware, achieving <strong>72 FPS on Meta Quest 2 and 90 FPS on Meta
-Quest 3</strong>.</p></li>
-</ul>
-<h4 id="diffumon-open-source-image-generation"><a
-href="https://github.com/LarsDu/DiffuMon">DiffuMon</a> • Open-source
-image generation</h4>
-<ul>
-<li><p>Implemented denoising diffusion probabilistic models (DDPM) in
-PyTorch as an educational paper reproduction, with denoising diffusion
-implicit model (DDIM) sampling support.</p></li>
-<li><p>Provided pretrained Fashion MNIST and Pokémon image models,
-training and sampling commands, configurable datasets, and example
-notebooks. Designed the implementation to train on a commodity
-GPU.</p></li>
+<li><p><strong><a href="https://roguestargun.com">Rogue
+Stargun</a></strong> — Unity/C# VR game with <strong>&gt;10,000
+installs</strong> across Steam, Quest, and PICO; <strong>4.7/5 on Meta
+Quest</strong>. Frontier LLMs and ElevenLabs text-to-speech in
+<strong>nine languages</strong>; dogfighting AI with collision
+avoidance, firing intercept, and behavior trees for <strong>40+
+concurrent ships</strong>. Shader and rendering/batch optimization:
+<strong>72 FPS on Quest 2, 90+ FPS on Quest 3 and PICO Ultra
+4</strong>.</p></li>
+<li><p><strong><a
+href="https://github.com/LarsDu/DiffuMon">DiffuMon</a></strong> —
+Open-source PyTorch DDPM/DDIM image generator and paper reproduction for
+commodity GPUs.</p></li>
+<li><p><strong><a
+href="https://dublog.net/blog/rust-2/">DuBlog</a></strong> — Technical
+writing and experimentation with Rust, Bevy, and WebAssembly.</p></li>
+<li><p><strong><a
+href="https://github.com/LarsDu/Dippy6502">Dippy6502</a></strong> —
+AI-assisted MOS6502 emulator with full pinout voltage
+visualization.</p></li>
+<li><p><strong><a href="https://panel-panic.com">PanelPanic</a></strong>
+— Rust/Macroquad Panel de Pon adaptation with WebRTC online
+multiplayer.</p></li>
+<li><p><strong><a href="https://stickermoji.me">StickerMoji</a></strong>
+— Web app for ordering AI-generated stickers.</p></li>
+<li><p><strong><a
+href="https://timurschess.com">TimursChess</a></strong> — Rust/Macroquad
+implementation of Tamerlane Chess.</p></li>
 </ul>
 </body>
 </html>
